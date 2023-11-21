@@ -1,0 +1,30 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+
+
+# Compiled files
+build/
+dist/
+*.exe
+
+# Configuration files
+.env
+.env.local
