@@ -1,18 +1,27 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
 
+
+/* Colors */
+:root {
+  --primary: #fcfaf1;
+  --secondary: #4d6f3a;
+  --tertiary: #283618;
+}
+
 /* Body */
 body {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #f6faf5;
+  background-color: var(--primary);
 }
 
 /* Main Content */
-.main-content {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 /* Header */
@@ -22,9 +31,9 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(to right, #732931 50%, #6E819A 100%);
+  background: linear-gradient(to right, var(--tertiary) 50%, var(--secondary) 80%);
   /* Gradient from dark to brighter */
-  color: #F1F7EE;
+  color: var(--primary);
   padding: 20px;
   text-align: center;
 }
@@ -44,43 +53,43 @@ body {
 
 .search-input {
   font-family: 'Titillium Web', sans-serif;
-  border: 2px solid #394240;
+  border: 2px solid var(--tertiary);
   border-radius: 10px;
   padding: 8px 12px;
-  background-color: #F1F7EE;
-  color: #655767;
-  width: 500px;
-  height: 25px;
+  background-color: var(--primary);
+  width: 38vw;
+  height: 4vh;
 }
 
 .search-button {
   font-family: 'Titillium Web', sans-serif;
   font-size: large;
-  background-color: #732931;
-  color: #F1F7EE;
+  background-color: var(--tertiary);
+  color: var(--primary);
   border: none;
   padding: 8px 12px;
   border-radius: 10px;
   margin-left: 5px;
   cursor: pointer;
-  width: 25%;
-  height: 45px;
+  width: 7vw;
+  height: 6.25vh;
 }
 
 .search-button:hover {
-  background-color: #577284;
+  background-color: var(--secondary);
 }
 
 /* Result Box */
 .result-box {
   color: #250407;
-  height: 200px;
-  width: 700px;
+  height: 25vh;
+  width: 50vw;
   margin: 20px auto;
   margin-top: 20px;
   border-radius: 15px;
+  /* border: 2px solid black; */
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to left, #f2ffdb 50%, #F1F7EE 80%);
+  background: linear-gradient(to bottom, var(--primary) 50%, rgb(215, 225, 207) 100%);
 }
 
 .result-title {
@@ -92,3 +101,57 @@ body {
 .result-description {
   margin: 1% 3% 2% 3%;
 }
+
+/* Dropdown */
+.dropbtn {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: large;
+  background-color: var(--tertiary);
+  color: var(--primary);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  min-width: 160px;
+  height: 6.25vh;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: var(--primary);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  border-radius: 10px;
+  background-color: rgb(215, 225, 207);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: var(--secondary);}

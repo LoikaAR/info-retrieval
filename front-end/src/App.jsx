@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header';
 import ResultBox from './components/ResultBox';
 import SearchBar from './components/SearchBar';
+import Dropdown from './components/Dropdown';
 import './App.css'
 
 function App() {
@@ -12,12 +13,11 @@ function App() {
     <div>
       <Header />
     </div>
-    <div className='main-content'>
+    <main>
+      <Dropdown />
       <SearchBar />
-    </div>
-    <div>
       <ResultBox />
-    </div>
+    </main>
      
     </>
   )
