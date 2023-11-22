@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header';
 import ResultBox from './components/ResultBox';
-import SearchBar from './components/SearchBar';
-import Dropdown from './components/Dropdown';
+import Search from './components/Search';
 import './App.css'
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
       <Header />
     </div>
     <main>
-      <Dropdown />
-      <SearchBar />
+      <Search />
       <ResultBox />
     </main>
      
