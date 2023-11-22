@@ -14,15 +14,15 @@ const SearchBar = ({ handleSearch }) => {
   };
 
   return (
-    <form class="search-container" onSubmit={handleSubmit}>
+    <form className="search-container" onSubmit={handleSubmit}>
       <input
-      class="search-input"
+      className="search-input"
         type="text"
         placeholder="Search..."
         value={query}
         onChange={handleChange}
       />
-      <button class="search-button" type="submit">Search</button>
+      <button className="search-button" type="submit">Search</button>
     </form>
   );
 };
