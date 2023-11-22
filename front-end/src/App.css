@@ -1,0 +1,73 @@
+/* Your Updated CSS with Revised Colors */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+/* Body */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #f6faf5;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header */
+.app-header {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000;
+  background: linear-gradient(to right, #732931 50%, #6E819A 100%); /* Gradient from dark to brighter */
+  color: #F1F7EE; 
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* SearchBar */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  font-family: 'Titillium Web', sans-serif;
+  border: 2px solid #394240; /* Match header background */
+  border-radius: 10px;
+  padding: 8px 12px;
+  background-color: #F1F7EE; 
+  color: #655767;
+  width: 500px;
+  height: 25px;
+}
+
+.search-button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: large;
+  background-color: #394240; 
+  color: #F1F7EE;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 25%;
+  height: 45px;
+}
+
+.search-button:hover {
+  background-color: #577284; /* Slightly lighter blue-gray on hover */
+}
