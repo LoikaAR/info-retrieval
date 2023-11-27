@@ -1,8 +1,8 @@
 import scrapy
 
-class HikeSpider(scrapy.Spider):
+class OutdoorSpider(scrapy.Spider):
 
-    name = "hikes_ti"
+    name = "hiking_ti"
 
     start_urls = ["https://www.ticinotopten.ch/en/trekking", 
                   "https://www.ticinotopten.ch/en/views",
@@ -13,11 +13,11 @@ class HikeSpider(scrapy.Spider):
 
             print(element)
 
-            hike_name = element.xpath(".//div[@class='item-text']/div[@class='title']/text()").get()    
-            category = element.xpath(".//div[@class='category']/text()").get()	           
-            # tags = hike.xpath(".//div[@class='tags']/a[@class='tag']/text()").getall()
+            name = element.xpath(".//div[@class='item-text']/div[@class='title']/text()").get()
+            category = element.xpath(".//div[@class='category']/text()").get()
 
-            yield {'hike_name': hike_name, 'category': category}
+            yield {'name': name, 'region': 'Ticino', 'category': category, 'distance': 'n/a km', 'duration': 'n/a h', 'ascent': 'n/a m'}
+
 
         next_page = response.xpath("//li[@class='nav navbar-primary']/a/@href").get()
 

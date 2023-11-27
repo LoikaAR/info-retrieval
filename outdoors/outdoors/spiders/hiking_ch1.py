@@ -1,26 +1,37 @@
 import scrapy
 
-class HikeSpider(scrapy.Spider):
+# activity - type: hike, cycling, other
 
-    name = "hikes_ch1"
+class OutdoorSpider(scrapy.Spider):
 
-    start_urls = ["https://www.zermatt.ch/en/Media/Planning-hikes-tours"]
+    name = "hiking_ch1"
+
+    start_urls = ["https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/0",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/15",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/31",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/45",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/61",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/75",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/91",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/105",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/121",
+                  "https://www.zermatt.ch/en/Media/Planning-hikes-tours/(offset)/135"]
 
     def parse(self, response): 
-        for element in response.xpath("//li[@class=']"):
+        for element in response.xpath("//div[@class='line-view__text-column']"):
+
+            name = element.xpath(".//div[@class='line-view__body']/h2/a/text()").get()
+
+            category_full = element.xpath(".//div[@class='line-view__body']/p/strong/text()").get()
+            category = category_full.replace(' | ','')
             
+            distance_full = element.xpath(".//div[@class='mb10']/span[@class='alpstein_tour_info']/abbr[@title='Distance']/text()").getall()[1]
+            distance = distance_full.strip(' ').replace('\n', '').replace('\u00A0', '')
 
-            print(element)
-            hike_name = element.xpath(".//div[@class='line-view line-view--alpstein_tour alpsteinTracking thumbnail_line ez_ias").get()
-            # hike_name = element.xpath(".//div[@class='flex flex-col']/div[@class='title']/text()").get()
+            duration_full = element.xpath(".//div[@class='mb10']/span[@class='alpstein_tour_info']/abbr[@title='Duration']/text()").getall()[1]
+            duration = duration_full.strip(' ').replace('\n', '').replace('\u00A0', '')
 
+            ascent_full = element.xpath(".//div[@class='mb10']/span[@class='alpstein_tour_info']/abbr[@title='Ascent']/text()").getall()[1]
+            ascent = ascent_full.strip(' ').replace('\n', '').replace('\u00A0', '')
 
-            # category = element.xpath(".//div[@class='category']/text()").get()	           
-            # tags = hike.xpath(".//div[@class='tags']/a[@class='tag']/text()").getall()
-
-            yield {'hike_name': hike_name}
-
-        next_page = response.xpath("//li[@class='nav navbar-primary']/a/@href").get()
-
-        if next_page:
-            yield response.follow(next_page, callback=self.parse)
+            yield {'name': name, 'region': 'Valais', 'category': category, 'distance': distance, 'duration': duration, 'ascent': ascent}

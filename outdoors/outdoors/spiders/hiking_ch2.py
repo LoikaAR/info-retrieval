@@ -1,9 +1,8 @@
 import scrapy
-import time
 
-class HikeSpider(scrapy.Spider):
+class OutdoorSpider(scrapy.Spider):
 
-    name = "hikes_ch2"
+    name = "hiking_ch2"
 
     start_urls = ["https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/"]
     
@@ -14,19 +13,23 @@ class HikeSpider(scrapy.Spider):
 
     def parse(self, response):
         for element in response.xpath("//article[@class='OfferTeaser grid']"):
-            hike_name_full = element.xpath(".//div[@class='OfferTeaser--content']/h3[@class='OfferTeaser--title']/span/text()").get()
-            hike_region_full = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--text']/text()").get()
+            name_full = element.xpath(".//div[@class='OfferTeaser--content']/h3[@class='OfferTeaser--title']/span/text()").get()
+            region_full = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--text']/text()").get()
             
-            hike_name_parsed = str(hike_name_full).strip()
-            hike_region_parsed = str(hike_region_full).strip()
-            hike_distance = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr/td[@class='OfferTeaser--meta--data--value']/text()").get()
-            hike_time = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr[2]/td[@class='OfferTeaser--meta--data--value']/text()").get()
+            name = str(name_full).strip()
+            region = str(region_full).strip()
+            distance = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr/td[@class='OfferTeaser--meta--data--value']/text()").get()
+            duration = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr[2]/td[@class='OfferTeaser--meta--data--value']/text()").get()
 
-            link = response.xpath("//a[@class='OfferTeaser--link']/@href").get()
-            desc = scrapy.Request(response.urljoin(link), callback=self.parse_inner)
+            duration = duration if duration is not None else 'n/a h'
+            # TODO 
+            # get ascent, description
+
+            # link = response.xpath("//a[@class='OfferTeaser--link']/@href").get()
+            # desc = scrapy.Request(response.urljoin(link), callback=self.parse_inner)
             # print("DESCPTION:", desc)
 
-            yield {'hike_name': hike_name_parsed, 'hike_region': hike_region_parsed, 'hike_distance': hike_distance, 'hike_time': hike_time, 'description': desc}
+            yield {'name': name, 'region': region, 'category': 'Hike', 'distance': distance, 'duration': duration, 'ascent': 'n/a m'}
 
 
         all_next_pages = response.css("a.Pagination--link::attr(href)").getall()

@@ -1,8 +1,8 @@
 import scrapy
 
-class ActivitySpider(scrapy.Spider):
+class OutdoorSpider(scrapy.Spider):
 
-    name = "hikes"
+    name = "activities_ti"
 
     start_urls = ["https://www.ticinotopten.ch/en/trekking", 
                   "https://www.ticinotopten.ch/en/monuments",
@@ -13,20 +13,12 @@ class ActivitySpider(scrapy.Spider):
                   "https://www.ticinotopten.ch/en/museums",
                   "https://www.ticinotopten.ch/en/adventure",
                   "https://www.ticinotopten.ch/en/experience",
-                  "https://www.ticinotopten.ch/en/specialties"] # URLs list to start crawling.
+                  "https://www.ticinotopten.ch/en/specialties"]
 
     def parse(self, response): 
         for element in response.xpath("//div[@class=' item-list col-md-6 col-sm-12 ']"):
-
             print(element)
+            name = element.xpath(".//div[@class='item-text']/div[@class='title']/text()").get()
+            category = element.xpath(".//div[@class='category']/text()").get()
 
-            hike_name = element.xpath(".//div[@class='item-text']/div[@class='title']/text()").get()    
-            category = element.xpath(".//div[@class='category']/text()").get()	           
-            # tags = hike.xpath(".//div[@class='tags']/a[@class='tag']/text()").getall()
-
-            yield {'hike_name': hike_name, 'category': category}
-
-        next_page = response.xpath("//li[@class='nav navbar-primary']/a/@href").get()
-
-        if next_page:
-            yield response.follow(next_page, callback=self.parse)
+            yield {'name': name, 'region': 'Ticino', 'category': category, 'distance': 'n/a km', 'duration': 'n/a h', 'ascent': 'n/a m'}
