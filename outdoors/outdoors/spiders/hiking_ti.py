@@ -1,6 +1,6 @@
 import scrapy
 
-class QuoteSpider(scrapy.Spider):
+class HikeSpider(scrapy.Spider):
 
     name = "hikes_ti"
 

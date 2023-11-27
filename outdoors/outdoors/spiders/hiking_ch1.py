@@ -1,17 +1,17 @@
 import scrapy
 
-class QuoteSpider(scrapy.Spider):
+class HikeSpider(scrapy.Spider):
 
     name = "hikes_ch1"
 
-    start_urls = ["https://schweizmobil.ch/en/hiking-in-switzerland/regional-routes"]
+    start_urls = ["https://www.zermatt.ch/en/Media/Planning-hikes-tours"]
 
     def parse(self, response): 
-        for element in response.xpath("//a[@class='flex flex-col bg-white shadow-card mouse:mouse:hover:bg-[#ffffff30] mouse:hover:shadow-card-deep']"):
+        for element in response.xpath("//li[@class=']"):
             
 
             print(element)
-            hike_name = element.xpath(".//div[@class='flex h-full flex-col justify-between p-[16px] xxl:p-[20px]']/div[@class='flex flex-col']/p[@class='card-title  sm:pb-[12px]  break-words pb-[8px]']/text()").get()
+            hike_name = element.xpath(".//div[@class='line-view line-view--alpstein_tour alpsteinTracking thumbnail_line ez_ias").get()
             # hike_name = element.xpath(".//div[@class='flex flex-col']/div[@class='title']/text()").get()
 
 
