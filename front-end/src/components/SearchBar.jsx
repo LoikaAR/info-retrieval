@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import Icon from '@mdi/react';
+import { mdiMagnify } from '@mdi/js';
 
 const SearchBar = ({ handleSearch }) => {
   const [query, setQuery] = useState('');
@@ -19,11 +21,13 @@ const SearchBar = ({ handleSearch }) => {
     <input
       className="search-input"
         type="text"
-        placeholder="Search..."
+        placeholder="I want to go to..."
         value={query}
         onChange={handleChange}
       />
-      <button className="search-button" type="submit">Search</button>
+      <button className="search-button" type="submit">
+        <Icon path={mdiMagnify} size={1} />
+        </button>
     </>
   );
 };
