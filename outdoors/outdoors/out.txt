@@ -1,6 +1,19 @@
 status: 200
 following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%2Az0jg0m%2A_up%2AMQ..%2A_ga%2AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%2A_ga_F6N1LVHY7B%2AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=2
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=2
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%252Az0jg0m%252A_up%252AMQ..%252A_ga%252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%252A_ga_F6N1LVHY7B%252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=3
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%25252Az0jg0m%25252A_up%25252AMQ..%25252A_ga%25252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%25252A_ga_F6N1LVHY7B%25252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=4
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%2525252Az0jg0m%2525252A_up%2525252AMQ..%2525252A_ga%2525252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%2525252A_ga_F6N1LVHY7B%2525252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=5
+status: 200
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=2
 status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%252Az0jg0m%252A_up%252AMQ..%252A_ga%252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%252A_ga_F6N1LVHY7B%252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=3
