@@ -1,57 +1,89 @@
 
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
-const Dropdown = () => {
-const activities = ['Hiking', 'Biking', 'Adventure'];
+const Dropdown = ({options}) => {
 
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedActivity, setSelectedActivity] = useState('');
+  const [selectedoption, setSelectedoption] = useState('');
 
   const handleDropdownClick = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (activity) => {
-    setSelectedActivity(activity);
+  const handleOptionClick = (option) => {
+    setSelectedoption(option);
     setIsOpen(false);
   };
 
   return (
-      <div className="dropdown" onClick={handleDropdownClick}>
-        <span className="selected-option">{selectedActivity || 'Select an activity'}</span>
-        <ul className={`options ${isOpen ? 'active' : ''}`}>
-          {activities.map((activity, index) => (
-            <li key={index} onClick={() => handleOptionClick(activity)}>
-              {activity}
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className={`custom-select ${isOpen ? 'active' : ''}`}>
+    <button
+    type="button"
+      className="select-button"
+      onClick={handleDropdownClick}
+      aria-haspopup="listbox"
+      aria-expanded={isOpen}
+    >
+      <span className="selected-value">
+        {selectedoption || 'Select an option'}
+      </span>
+      <span className="arrow"></span>
+    </button>
+    <ul className="select-dropdown">
+      {options.map((option, index) => (
+        <li key={index} onClick={() => handleOptionClick(option)}>
+          <input
+            type="radio"
+            id={option}
+            name="options"
+            checked={selectedoption === option}
+            readOnly
+          />
+          <label htmlFor={option}>{option}</label>
+        </li>
+      ))}
+    </ul>
+  </div>
   );
 };
+
+Dropdown.propTypes = {
+    options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  };
 
 export default Dropdown;
 
 
+    //   <div className="dropdown" onClick={handleDropdownClick}>
+    //     <span className="selected-option">{selectedoption || 'Select an option'}</span>
+    //     <ul className={`options ${isOpen ? 'active' : ''}`}>
+    //       {activities.map((option, index) => (
+    //         <li key={index} onClick={() => handleOptionClick(option)}>
+    //           {option}
+    //         </li>
+    //       ))}
+    //     </ul>
+    //   </div>
 
     // return (
     //     <>
     //         <div className="dropdown">
-    //             <label htmlFor="activities">Choose Your Activity:</label>
+    //             <label htmlFor="activities">Choose Your option:</label>
     //             <div className="custom-select">
-    //                 <span className="selected-option">Select an activity</span>
+    //                 <span className="selected-option">Select an option</span>
     //                 <ul id="activities" className="options">
-    //                     {activities.map((activity, index) => (
-    //                         <option key={index} value={activity.toLowerCase()}>{activity}</option>
+    //                     {activities.map((option, index) => (
+    //                         <option key={index} value={option.toLowerCase()}>{option}</option>
     //                     ))}
     //                 </ul>
     //             </div>
     //         </div>
     //         <div className="dropdown">
-    //             <label htmlFor="activities">Choose Your Activity:</label>
+    //             <label htmlFor="activities">Choose Your option:</label>
     //             <select name="activities" id="activities">
-    //                 {activities.map((activity, index) => (
-    //                     <option key={index} value={activity.toLowerCase()}>{activity}</option>
+    //                 {activities.map((option, index) => (
+    //                     <option key={index} value={option.toLowerCase()}>{option}</option>
     //                 ))}
     //             </select>
     //         </div>
@@ -70,8 +102,8 @@ export default Dropdown;
     //             </div>
     //         </div> */}
     //         <form action="">
-    //         <label for="activitys">Choose a activity:</label>
-    //         <select name="activitys" id="activitys">
+    //         <label for="options">Choose a option:</label>
+    //         <select name="options" id="options">
     //             <option value="volvo">Volvo</option>
     //             <option value="saab">Saab</option>
     //             <option value="opel">Opel</option>

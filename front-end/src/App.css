@@ -68,11 +68,8 @@ main {
 .search-container {
   display: grid;
   grid-template-columns: 600px 100px;
-  /* Two columns of equal width */
   grid-template-rows: repeat(2, 110px);
-  /* 2 rows with a fixed height of 150px each */
   grid-gap: 5%;
-  /* Gap between grid items */
   justify-items: center;
   /* Center items horizontally */
   align-items: center;
@@ -121,11 +118,9 @@ input:focus {
   margin: 20px auto;
   margin-top: 20px;
   border-radius: 15px;
-  /* border: 2px solid black; */
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to bottom, var(--primary), rgb(215, 225, 207));
+  background: linear-gradient(to bottom, var(--primary), rgb(165, 185, 151));
   overflow: hidden;
-  /* Prevents content overflow */
 }
 
 .result-title,
@@ -144,55 +139,136 @@ input:focus {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
-  /* number of lines to display */
+  -webkit-line-clamp: 3;/* number of lines to display */
   -webkit-box-orient: vertical;
 }
 
+.dropdowns {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(2, 110px);
+  grid-gap: 2%;
+  justify-items: center;
+  align-items: center;
+}
 
-.dropdown {
+/* Dropdown Select Menu*/
+.custom-select {
+  position: relative;
+  min-width: 200px;
+  max-width: 100%;
+  font-size: 1.15rem;
+  color: #000;
+  margin-top: 3rem;
+}
+
+.select-button {
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  font-size: 1.15rem;
+  background: linear-gradient(to bottom, var(--primary), rgb(202, 207, 186));
+  padding: 0.675em 1em;
+  border: 1px solid #caced1;
+  border-radius: 10px;
+  cursor: pointer;
+
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-value {
+  text-align: left;
+}
+
+.arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--tertiary);
+  transition: transform ease-in-out 0.3s;
+}
+
+.select-dropdown {
+  position: absolute;
+  list-style: none;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background-color: var(--primary);
+  border: 1px solid #caced1;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  transition: 0.5s ease;
+  transform: scaleY(0);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.select-dropdown:focus-within {
+  box-shadow: 0 10px 25px var(--tertiary);
+}
+
+.select-dropdown li {
   position: relative;
   cursor: pointer;
-  min-width: 150px;
-  text-align: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-
-.selected-option {
-  border-radius: 10px;
-  padding: 8px 12px;
-  background-color: rgb(215, 225, 207);
-}
-
-
-.options {
-  position: absolute;
-  top: 100%;
-  left: 0;
+.select-dropdown li label {
   width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  /* border: 2px solid var(--tertiary); */
-  /* border-top: none; */
-  border-radius: 0 0 10px 10px;
-  background-color: rgb(215, 225, 207);
-  display: none;
-}
-
-.options.active {
-  display: block;
-}
-
-.options li {
-  padding: 8px 12px;
+  padding: 8px 10px;
   cursor: pointer;
-  /* border-radius: 5px; */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.options li:hover {
+.select-dropdown::-webkit-scrollbar {
+  width: 7px;
+}
+.select-dropdown::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 25px;
+}
+
+.select-dropdown::-webkit-scrollbar-thumb {
+  background: rgb(165, 185, 151);
+  border-radius: 25px;
+}
+
+
+.select-dropdown input:checked ~ label{
+  background-color: rgb(235, 238, 220);
+  border-radius: 10px;
+  color: black;
+}
+
+.select-dropdown li:hover,
+.select-dropdown li:hover input:checked  ~ label {
   background-color: var(--secondary);
+  border-radius: 10px;
   color: var(--primary);
+}
+
+
+.select-dropdown input[type="radio"] {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+/* interactivity */
+
+.custom-select.active .arrow {
+  transform: rotate(180deg);
+}
+
+.custom-select.active .select-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
 }
