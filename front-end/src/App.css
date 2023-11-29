@@ -112,9 +112,11 @@ input:focus {
 }
 
 .result-box {
+  padding: 2%;
+  margin: 0%;
   color: #250407;
-  height: 25vh;
-  width: 50vw;
+  min-height: 20vh;
+  width: 45vw;
   margin: 20px auto;
   margin-top: 20px;
   border-radius: 15px;
@@ -123,25 +125,58 @@ input:focus {
   overflow: hidden;
 }
 
-.result-title,
-.result-category {
-  padding: 2% 3% 0% 3%;
+.result-link {
+  margin-bottom: 0%;
+}
+
+.result-link:link {
+  color: rgb(15, 41, 9);
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.result-title {
+  /* padding: 3% 3% 0% 3%; */
   margin: 0%;
   /* Ensure titles don't overflow */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 30px;
+  text-shadow: none;
+  transition: text-shadow 0.15s ease; 
+}
+
+.result-title:hover {
+  text-shadow: 1px 1px 1px lightblue;
+  color: #000;
+}
+
+
+.result-details {
+  display: grid;
+  grid-template-columns: repeat(2, 20vw);
+  grid-template-rows: 15vh;
+  grid-gap: 2%;
+  justify-items: left;
+  align-items: center;
 }
 
 .result-description {
-  margin: 1% 3% 2% 3%;
+  margin: 0%;
   /* Ensure description text doesn't overflow */
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3;/* number of lines to display */
+  -webkit-line-clamp: 4;/* number of lines to display */
   -webkit-box-orient: vertical;
 }
+
 
 .dropdowns {
   display: grid;
