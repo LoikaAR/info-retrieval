@@ -1,226 +1,63 @@
-before:
-[697384, 700196, 702967, 705767, 708549, 711376, 714103, 716804, 719550, 722389, 725158, 727457, 729688, 732490, 735235]
+status: 200
 following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=2
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%2Az0jg0m%2A_up%2AMQ..%2A_ga%2AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%2A_ga_F6N1LVHY7B%2AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=2
+status: 200
 following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=3
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%252Az0jg0m%252A_up%252AMQ..%252A_ga%252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%252A_ga_F6N1LVHY7B%252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=3
+status: 200
 following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=4
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%25252Az0jg0m%25252A_up%25252AMQ..%25252A_ga%25252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%25252A_ga_F6N1LVHY7B%25252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=4
+status: 200
 following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=5
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=6
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=7
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=8
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=9
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=10
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=11
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=12
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=13
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=14
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=15
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=16
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=17
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=18
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=19
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=20
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=2
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=3
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=4
-following to the next page:
-https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=5
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?_gl=1%2525252Az0jg0m%2525252A_up%2525252AMQ..%2525252A_ga%2525252AOTI5NjA1NjE0LjE3MDEyNDkyNjk.%2525252A_ga_F6N1LVHY7B%2525252AMTcwMTI0OTI2OS4xLjAuMTcwMTI0OTI2OS4wLjAuMA..&p=5
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=6
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=7
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=8
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=9
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=10
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=11
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=12
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=13
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=14
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=15
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=16
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=17
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=18
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=19
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=20
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21
+status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
-<Selector query="//div[@class=' item-list col-md-6 col-sm-12 ']" data='<div class=" item-list col-md-6 col-s...'>
