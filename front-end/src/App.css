@@ -23,6 +23,7 @@ body {
   background-position: center;
 }
 
+
 h2,
 h3 {
   font-weight: 400;
@@ -37,6 +38,7 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   flex: 1;
+  min-height: 45vh;
 }
 
 /* Header */
@@ -55,6 +57,7 @@ main {
 }
 
 .app-header h2 {
+  color: var(--primary);
   height: 70%;
   margin: 0%;
 }
@@ -63,9 +66,19 @@ main {
 .search-container {
   display: grid;
   grid-template-columns: 45vw 7vw;
-  grid-template-rows: repeat(2, 110px);
+  grid-template-rows: 110px 55px 110px;
   justify-items: center;
   align-items: center;
+}
+
+.show-dropdowns {
+  grid-column: span 2;
+  cursor: pointer;
+  background-color: transparent; 
+  color: var(--primary); 
+  font-size: 17px;
+  border: none;
+  margin-left: 10;
 }
 
 input:focus {
@@ -98,7 +111,6 @@ input:focus {
 }
 
 
-
 .search-button:hover {
   background-color: var(--secondary);
 }
@@ -110,7 +122,7 @@ input:focus {
   width: 43vw;
   border-radius: 15px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to bottom, var(--primary), rgb(165, 185, 151));
+  background: linear-gradient(to bottom, var(--primary), rgb(183, 202, 167));
   overflow: hidden;
 }
 
@@ -170,7 +182,8 @@ a {
 
 .dropdowns {
   display: grid;
-  grid-template-columns: repeat(2, 22.5vw);
+  grid-column: span 2;
+  grid-template-columns: repeat(3, 17vw);
   grid-template-rows: repeat(1, 110px);
   justify-items: center;
   align-items: center;

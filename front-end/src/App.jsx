@@ -15,7 +15,7 @@ function App() {
     </div>
     <main>
       <Search />
-      <ResultBox />
+      {/* <ResultBox /> */}
     </main>
      <Footer/>
     </>
