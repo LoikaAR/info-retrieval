@@ -13,9 +13,7 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-  padding-top: 15%;
   margin: 0%;
 
   /* Background */
@@ -35,45 +33,39 @@ h3 {
 main {
   display: flex;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
-  margin-top: 2%;
-  /* Adjusted margin-top */
+  margin-left: 10%;
+  margin-right: 10%;
+  flex: 1;
 }
 
 /* Header */
 .app-header {
+  padding-top: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2%;
-  /* Adjusted margin-bottom */
+  flex-direction: column;
 }
-
-
 
 .app-title {
   font-size: 57px;
-  /* color: -webkit-linear-gradient(#bf78a9 30%, #c2d84b); */
-  color: rgb(15, 41, 9);
-  /* -webkit-background-clip: text; */
-  /* -webkit-text-fill-color: transparent;
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.17), 
-    0px -4px 10px rgba(255,255,255,0.3); */
-  /* font-size: 36px; */
   margin: 0;
+  color: rgb(15, 41, 9);
+}
+
+.app-header h2 {
+  height: 70%;
+  margin: 0%;
 }
 
 /* SearchBar */
 .search-container {
   display: grid;
-  grid-template-columns: 600px 100px;
+  grid-template-columns: 45vw 7vw;
   grid-template-rows: repeat(2, 110px);
-  grid-gap: 5%;
   justify-items: center;
-  /* Center items horizontally */
   align-items: center;
-  /* Center items vertically */
 }
 
 input:focus {
@@ -87,8 +79,8 @@ input:focus {
   border: none;
   border-radius: 10px;
   padding: 8px 12px;
-  background-color: var(--primary);
-  width: 100%;
+  background: var(--primary);
+  width: 95%;
   height: 30%;
 }
 
@@ -101,7 +93,7 @@ input:focus {
   padding: 12px 10px;
   border-radius: 10px;
   cursor: pointer;
-  width: 100%;
+  width: 85%;
   height: 45%;
 }
 
@@ -113,12 +105,9 @@ input:focus {
 
 .result-box {
   padding: 2%;
-  margin: 0%;
   color: #250407;
   min-height: 20vh;
-  width: 45vw;
-  margin: 20px auto;
-  margin-top: 20px;
+  width: 43vw;
   border-radius: 15px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   background: linear-gradient(to bottom, var(--primary), rgb(165, 185, 151));
@@ -149,7 +138,7 @@ a {
   font-weight: 500;
   font-size: 30px;
   text-shadow: none;
-  transition: text-shadow 0.15s ease; 
+  transition: text-shadow 0.15s ease;
 }
 
 .result-title:hover {
@@ -173,16 +162,16 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4;/* number of lines to display */
+  -webkit-line-clamp: 4;
+  /* number of lines to display */
   -webkit-box-orient: vertical;
 }
 
 
 .dropdowns {
   display: grid;
-  grid-template-columns: repeat(2, 350px);
-  grid-template-rows: repeat(2, 110px);
-  grid-gap: 2%;
+  grid-template-columns: repeat(2, 22.5vw);
+  grid-template-rows: repeat(1, 110px);
   justify-items: center;
   align-items: center;
 }
@@ -194,16 +183,19 @@ a {
   max-width: 100%;
   font-size: 1.15rem;
   color: #000;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .select-button {
   font-family: 'Titillium Web', sans-serif;
   width: 100%;
-  font-size: 1.15rem;
-  background: linear-gradient(to bottom, var(--primary), rgb(202, 207, 186));
-  padding: 0.675em 1em;
-  border: 1px solid #caced1;
+  font-size: 18px;
+  /* background: linear-gradient(to bottom, var(--primary), rgb(202, 207, 186)); */
+  background-color: var(--primary);
+  color: rgb(91, 89, 89);
+  padding: 8px 12px;
+  border: 1px solid var(--primary);
   border-radius: 10px;
   cursor: pointer;
 
@@ -265,6 +257,7 @@ a {
 .select-dropdown::-webkit-scrollbar {
   width: 7px;
 }
+
 .select-dropdown::-webkit-scrollbar-track {
   background: var(--primary);
   border-radius: 25px;
@@ -276,14 +269,14 @@ a {
 }
 
 
-.select-dropdown input:checked ~ label{
+.select-dropdown input:checked~label {
   background-color: rgb(235, 238, 220);
   border-radius: 10px;
   color: black;
 }
 
 .select-dropdown li:hover,
-.select-dropdown li:hover input:checked  ~ label {
+.select-dropdown li:hover input:checked~label {
   background-color: var(--secondary);
   border-radius: 10px;
   color: var(--primary);
@@ -306,4 +299,16 @@ a {
   opacity: 1;
   visibility: visible;
   transform: scaleY(1);
+}
+
+.app-footer {
+  /* background-color: rgba(94, 74, 81, 0.7);  */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  /* position: static;
+  bottom: 0; */
+  flex-shrink: 0;
+  margin-top: 5%;
 }
