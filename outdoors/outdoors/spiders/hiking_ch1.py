@@ -34,4 +34,51 @@ class OutdoorSpider(scrapy.Spider):
             ascent_full = element.xpath(".//div[@class='mb10']/span[@class='alpstein_tour_info']/abbr[@title='Ascent']/text()").getall()[1]
             ascent = ascent_full.strip(' ').replace('\n', '').replace('\u00A0', '')
 
-            yield {'name': name, 'region': 'Valais', 'category': category, 'distance': distance, 'duration': duration, 'ascent': ascent}
+            link = element.xpath(".//div[@class='line-view__body']/h2/a/@href").get()
+
+            link = 'https://www.zermatt.ch/' + str(link)
+
+            yield scrapy.Request(
+                url=response.urljoin(link),
+                callback=self.parse_inner,
+                cb_kwargs={
+                            'name': name, 
+                            'region': 'Valais', 
+                            'category': category, 
+                            'distance': distance, 
+                            'duration': duration, 
+                            'ascent': ascent, 
+                            'link': link
+                           }
+            ) 
+
+    def parse_inner(self, response, name, region, category, distance, duration, ascent, link):
+        desc_main = response.xpath(".//div[@id='description']/p/text()").getall()
+        desc_bullets = response.xpath(".//div[@id='description']/ul/li/text()").getall()
+
+        description = desc_main + desc_bullets
+
+        yield {
+                'name': name, 
+                'region': region, 
+                'category': category, 
+                'distance': distance, 
+                'duration': duration, 
+                'ascent': ascent, 
+                'link': link,
+                'description': description
+               }
+
+
+
+
+
+
+# user similarity => determine a user's similarity to other users defined by some common aspects (e.g. type of products they buy),
+#                    then make recommendation of new content/products based on judgements/requests of other users
+# cold start problem => NEW USES: a new user arrives, need to gather some info about them (generic - gender, geo area, age etc). Give some free
+#                       recommendations, and gather the interest data. Then make better recommendations, that will likely get the user
+#                       to stay and pay
+#                    => NEW DOC: how to start recommending products/content that nobody has ever seen? Use content-based filtering
+
+# linear utility function => scoring all documents in a collection based on how relevant they are
