@@ -23,6 +23,7 @@ function Search() {
                 <button type="button" onClick={toggleVisibility} className="show-dropdowns">{selectedOption || 'Show me all Categories!'}</button>
                 {isVisible && (
                     <div className="dropdowns">
+                        {/* MULTIPLE DROPDOWN-SELECTS CHANGE EACH OTHER'S VALUES ATM, EXTREMELY NOT SECURE */}
                         <Dropdown options={
                             ['Hiking', 'Biking', 'Adventure']
                         } />

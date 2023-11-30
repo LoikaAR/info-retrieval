@@ -38,7 +38,7 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   flex: 1;
-  min-height: 45vh;
+  min-height: 52vh;
 }
 
 /* Header */
@@ -74,8 +74,8 @@ main {
 .show-dropdowns {
   grid-column: span 2;
   cursor: pointer;
-  background-color: transparent; 
-  color: var(--primary); 
+  background-color: transparent;
+  color: var(--primary);
   font-size: 17px;
   border: none;
   margin-left: 10;
@@ -119,11 +119,12 @@ input:focus {
   padding: 2%;
   color: #250407;
   min-height: 20vh;
-  width: 43vw;
+  width: 48.5vw;
   border-radius: 15px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to bottom, var(--primary), rgb(183, 202, 167));
+  background-color: var(--primary);
   overflow: hidden;
+  margin-bottom: 4%;
 }
 
 .result-link {
@@ -323,5 +324,4 @@ a {
   /* position: static;
   bottom: 0; */
   flex-shrink: 0;
-  margin-top: 5%;
 }
