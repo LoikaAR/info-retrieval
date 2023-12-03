@@ -13,7 +13,7 @@ const SearchBar = ({ handleFormSubmit }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     handleFormSubmit({ query }); // pass query to the parent component for submission
-    setQuery(''); // reset query after submission
+    // setQuery(''); // reset query after submission
   };
 
   return (
