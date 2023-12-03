@@ -80,6 +80,7 @@ def submit_form(request):
                 # Replace this with your actual data processing logic
 
                 # Return a success message or any other response if needed
+                
                 return JsonResponse({'message': 'JSON data processed successfully'})
             except json.JSONDecodeError:
                 return JsonResponse({'error': 'Invalid JSON format'}, status=400)

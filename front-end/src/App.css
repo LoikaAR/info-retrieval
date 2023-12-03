@@ -140,6 +140,7 @@ input:focus {
 }
 
 .result-link:link {
+  text-decoration: underline;
   color: rgb(15, 41, 9);
 }
 

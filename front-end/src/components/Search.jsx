@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import Dropdowns from './Dropdowns';
-import { getCSRFToken } from "../main.jsx";
+import { getCSRFToken } from "../router.jsx";
+import PropTypes from 'prop-types';
 
-function Search() {
+function Search({ onPostSuccess }) {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
@@ -36,18 +37,17 @@ function Search() {
 
   const handleFormSubmit = async (formData) => {
     try {
-      const csrftoken = await getCSRFToken(); // Retrieve CSRF token
+      const csrftoken = await getCSRFToken();
 
       if (csrftoken) {
-        // Merge form data with selectedOptions object for submission
+        // Merge form data with selectedOptions object for submission (for filtering purposes in the back-end)
         const dataToSubmit = { ...formData, ...selectedOptions };
 
-        // Send dataToSubmit to the backend
         const response = await fetch('http://127.0.0.1:8000/api/submit-form/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-CSRFToken': csrftoken, // Include the CSRF token in the request headers
+            'X-CSRFToken': csrftoken,
           },
           body: JSON.stringify(dataToSubmit),
         });
@@ -55,6 +55,7 @@ function Search() {
         if (response.ok) {
           console.log('Form data submitted successfully');
           console.log("dataToSubmit: "+ JSON.stringify(dataToSubmit))
+          onPostSuccess(); // Trigger the function in App component to execute the GET request
           // Handle success response from the backend
         } else {
           console.error('Error submitting form data');
@@ -84,5 +85,9 @@ function Search() {
     </>
   );
 }
+
+Search.propTypes = {
+  onPostSuccess: PropTypes.func.isRequired,
+};
 
 export default Search;
