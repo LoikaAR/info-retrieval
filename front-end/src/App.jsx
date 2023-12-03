@@ -58,7 +58,7 @@ function App() {
               distance={item.distance}
               duration={item.duration}
               ascent={item.ascent}
-              description={item.description}
+              description={item.description.join('\n')}
             />
           ))}
         </div>

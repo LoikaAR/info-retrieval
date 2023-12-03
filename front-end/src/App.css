@@ -130,7 +130,7 @@ input:focus {
   width: 48.5vw;
   border-radius: 15px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background-color: #f3fcf1e6;
+  background-color: rgba(239, 240, 233, 0.902);
   overflow: hidden;
   margin-bottom: 4%;
 }
