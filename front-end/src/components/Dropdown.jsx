@@ -9,9 +9,13 @@ const Dropdown = ({ options, selectedOption, setSelectedOption }) => {
   };
 
   const handleOptionClick = (option) => {
+    if (option.includes("Any")) {
+      option = "";
+    }
     setSelectedOption(option);
     setIsOpen(false);
   };
+  
 
   return (
     <div className={`custom-select ${isOpen ? 'active' : ''}`}>

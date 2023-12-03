@@ -65,8 +65,16 @@ main {
 /* SearchBar */
 .search-container {
   display: grid;
-  grid-template-columns: 45vw 7vw;
+  grid-template-columns: 52vw;
   grid-template-rows: 110px 55px 110px;
+  justify-items: center;
+  align-items: center;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 45vw 7vw;
+  grid-template-rows: 110px;
   justify-items: center;
   align-items: center;
 }
@@ -182,10 +190,9 @@ a {
 
 
 .dropdowns {
-  display: grid;
-  grid-column: span 2;
-  grid-template-columns: repeat(3, 17vw);
-  grid-template-rows: repeat(1, 110px);
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
   justify-items: center;
   align-items: center;
 }

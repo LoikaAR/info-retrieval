@@ -2,33 +2,37 @@ import PropTypes from 'prop-types';
 import Dropdown from './Dropdown';
 
 const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
-  const handleOptionSelection = (index, option) => {
-    handleOptionChange(index, option);
+  const handleOptionSelection = (field, option) => {
+    handleOptionChange(field, option);
   };
 
   return (
     <div className="dropdowns">
       <Dropdown
-        options={['Hiking', 'Biking', 'Adventure']}
-        selectedOption={selectedOptions[0]}
-        setSelectedOption={(option) => handleOptionSelection(0, option)}
+        options={['Hiking', 'Biking', 'Adventure', 'Any Activity']}
+        selectedOption={selectedOptions.category}
+        setSelectedOption={(option) => handleOptionSelection('category', option)}
       />
       <Dropdown
-        options={['Hikin', 'Bikin', 'Adventur']}
-        selectedOption={selectedOptions[1]}
-        setSelectedOption={(option) => handleOptionSelection(1, option)}
+        options={['Ticino', 'Valais', 'Any Region']}
+        selectedOption={selectedOptions.region}
+        setSelectedOption={(option) => handleOptionSelection('region', option)}
       />
-      <Dropdown
-        options={['Hikings', 'Bikings', 'Adventures']}
-        selectedOption={selectedOptions[2]}
-        setSelectedOption={(option) => handleOptionSelection(2, option)}
-      />
+      {/* <Dropdown
+        options={['Hikings', 'Bikings', 'Adventures',  'Any Activities']}
+        selectedOption={selectedOptions.ascent}
+        setSelectedOption={(option) => handleOptionSelection('ascent', option)}
+      /> */}
     </div>
   );
 };
 
 Dropdowns.propTypes = {
-  selectedOptions: PropTypes.array.isRequired,
+  selectedOptions: PropTypes.shape({
+    category: PropTypes.string.isRequired,
+    region: PropTypes.string.isRequired,
+    ascent: PropTypes.string.isRequired,
+  }).isRequired,
   handleOptionChange: PropTypes.func.isRequired,
 };
 
