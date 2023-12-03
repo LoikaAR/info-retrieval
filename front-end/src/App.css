@@ -17,7 +17,7 @@ body {
   margin: 0%;
 
   /* Background */
-  background-image: url("bg9.png");
+  background-image: url("bg.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -122,7 +122,7 @@ input:focus {
   width: 48.5vw;
   border-radius: 15px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background-color: var(--primary);
+  background-color: #fcfaf1c7;
   overflow: hidden;
   margin-bottom: 4%;
 }
@@ -303,8 +303,6 @@ a {
   opacity: 0;
 }
 
-/* interactivity */
-
 .custom-select.active .arrow {
   transform: rotate(180deg);
 }
@@ -316,12 +314,9 @@ a {
 }
 
 .app-footer {
-  /* background-color: rgba(94, 74, 81, 0.7);  */
   color: white;
   text-align: center;
   padding: 5px;
   font-size: 15px;
-  /* position: static;
-  bottom: 0; */
   flex-shrink: 0;
 }

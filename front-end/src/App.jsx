@@ -13,8 +13,9 @@ function App() {
     </div>
     <main>
       <Search />
-      {/* <ResultBox />
-      <ResultBox /> */}
+      {/* TO DO: ensure to show result only if there is any query of length > 0 */}
+      <ResultBox />
+      <ResultBox />
     </main>
      <Footer/>
     </>

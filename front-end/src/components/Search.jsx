@@ -1,44 +1,35 @@
 import { useState } from 'react';
 import SearchBar from './SearchBar';
-import Dropdown from './Dropdown';
+import Dropdowns from './Dropdowns';
 
 function Search() {
+  const [isVisible, setIsVisible] = useState(false);
+  const [selectedOptions, setSelectedOptions] = useState(['', '', '']);
 
-    const [isVisible, setIsVisible] = useState(false);
-    const [selectedOption, setSelectedOption] = useState('');
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
 
-    const toggleVisibility = () => {
-        setIsVisible(!isVisible);
-        if (!isVisible) {
-            setSelectedOption("Hide Categories");
-        } else {
-            setSelectedOption("Show me all Categories!")
-        }
-    };
+  const handleOptionChange = (index, option) => {
+    const newSelectedOptions = [...selectedOptions];
+    newSelectedOptions[index] = option;
+    setSelectedOptions(newSelectedOptions);
+  };
 
-    return (
-        <>
-            <form className='search-container'>
-                <SearchBar />
-                <button type="button" onClick={toggleVisibility} className="show-dropdowns">{selectedOption || 'Show me all Categories!'}</button>
-                {isVisible && (
-                    <div className="dropdowns">
-                        {/* MULTIPLE DROPDOWN-SELECTS CHANGE EACH OTHER'S VALUES ATM, EXTREMELY NOT SECURE */}
-                        <Dropdown options={
-                            ['Hiking', 'Biking', 'Adventure']
-                        } />
-                        <Dropdown options={
-                            ['Hiking', 'Biking', 'Adventure']
-                        } />
-                        <Dropdown options={
-                            ['Hiking', 'Biking', 'Adventure']
-                        } />
-                    </div>
-                )}
-
-            </form>
-        </>
-    )
+  return (
+    <>
+      <form className='search-container'>
+        <SearchBar />
+        <button type="button" onClick={toggleVisibility} className="show-dropdowns">
+          {isVisible ? 'Hide Categories' : 'Show me all Categories!'}
+        </button>
+        {isVisible && (
+          <Dropdowns selectedOptions={selectedOptions} handleOptionChange={handleOptionChange} />
+        )}
+        {console.log("selectedOptions array: " + selectedOptions)}
+      </form>
+    </>
+  );
 }
 
-export default Search
+export default Search;
