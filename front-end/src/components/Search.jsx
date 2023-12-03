@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import Dropdowns from './Dropdowns';
+import { getCSRFToken } from "../main.jsx";
 
 function Search() {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,26 +33,36 @@ function Search() {
     }
   }, [isVisible]);
 
+
   const handleFormSubmit = async (formData) => {
     try {
-      // Merge form data with selectedOptions object for submission
-      const dataToSubmit = { ...formData, ...selectedOptions };
+      const csrftoken = await getCSRFToken(); // Retrieve CSRF token
 
-      // Send dataToSubmit to the backend
-      const response = await fetch('http://127.0.0.1:8000/api/submit-form/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dataToSubmit),
-      });
+      if (csrftoken) {
+        // Merge form data with selectedOptions object for submission
+        const dataToSubmit = { ...formData, ...selectedOptions };
 
-      if (response.ok) {
-        console.log('Form data submitted successfully');
-        // Handle success response from the backend
+        // Send dataToSubmit to the backend
+        const response = await fetch('http://127.0.0.1:8000/api/submit-form/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrftoken, // Include the CSRF token in the request headers
+          },
+          body: JSON.stringify(dataToSubmit),
+        });
+
+        if (response.ok) {
+          console.log('Form data submitted successfully');
+          console.log("dataToSubmit: "+ JSON.stringify(dataToSubmit))
+          // Handle success response from the backend
+        } else {
+          console.error('Error submitting form data');
+          // Handle error response from the backend
+        }
       } else {
-        console.error('Error submitting form data');
-        // Handle error response from the backend
+        console.log('Error: CSRF token retrieval failed');
+        // Handle if CSRF token retrieval fails
       }
     } catch (error) {
       console.error('Error:', error);
