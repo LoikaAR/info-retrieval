@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from myapp import views
 from myapp.views import get_csrf_token
+from myapp.views import get_data
 
 urlpatterns = [
-    # path('api/data/', get_data, name='get_data'),
     path('api/get_csrf_token/', get_csrf_token, name='get_csrf_token'),
+    path('api/get_data/', get_data, name='get_data'),
     path('api/submit-form/', views.submit_form, name='submit_form'),
     path('', admin.site.urls),
 ]
