@@ -110,7 +110,7 @@ def get_data(request):
         }
     ]
     request.data = data
-    
+
     return JsonResponse(data, safe=False)
 
 
@@ -150,10 +150,10 @@ def submit_form(request):
                 # Access the specific fields (query, category, region, ascent)
                 query = json_data.get('query')
                 category = json_data.get('category')
-                region = json_data.get('region')
-                ascent = json_data.get('ascent')
+                duration = json_data.get('duration')
+                distance = json_data.get('distance')
                 print("Received query: " + query + " " +
-                      category + " " + region + " " + ascent)
+                      category + " " + duration + " " + distance)
 
                 # Process the data (for example, store it in a database)
                 # Replace this with your actual data processing logic

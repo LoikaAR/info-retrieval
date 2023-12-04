@@ -13,16 +13,17 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
         selectedOption={selectedOptions.category}
         setSelectedOption={(option) => handleOptionSelection('category', option)}
       />
-      <Dropdown
+      {/* <Dropdown
         options={['Ticino', 'Valais', 'Any Region']}
         selectedOption={selectedOptions.region}
         setSelectedOption={(option) => handleOptionSelection('region', option)}
-      />
+      /> */}
       {/* <Dropdown
         options={['Hikings', 'Bikings', 'Adventures',  'Any Activities']}
         selectedOption={selectedOptions.ascent}
         setSelectedOption={(option) => handleOptionSelection('ascent', option)}
       /> */}
+      
     </div>
   );
 };
@@ -30,8 +31,8 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
 Dropdowns.propTypes = {
   selectedOptions: PropTypes.shape({
     category: PropTypes.string.isRequired,
-    region: PropTypes.string.isRequired,
-    ascent: PropTypes.string.isRequired,
+    duration: PropTypes.string.isRequired,
+    distance: PropTypes.string.isRequired,
   }).isRequired,
   handleOptionChange: PropTypes.func.isRequired,
 };

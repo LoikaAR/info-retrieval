@@ -44,7 +44,7 @@ function App() {
 
 export default App
 
-// i need to sleep, even thoug i slept.
+// i wanna sleep, even though i slept.
 // i don't even know, where my dreams are kept.
 // i keep having nightmares, so i wake up in cold sweat
 // and never are my expectations met.

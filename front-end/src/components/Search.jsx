@@ -8,8 +8,8 @@ function Search({ onPostSuccess }) {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
-    region: '',
-    ascent: '',
+    duration: '',
+    distance: '',
   });
 
   const toggleVisibility = () => {
@@ -28,8 +28,8 @@ function Search({ onPostSuccess }) {
     if (!isVisible) {
       setSelectedOptions({
         category: '',
-        region: '',
-        ascent: '',
+        duration: '',
+        distance: '',
       });
     }
   }, [isVisible]);
