@@ -24,6 +24,7 @@ const SearchBar = ({ handleFormSubmit }) => {
         placeholder="I want to go to..."
         value={query}
         onChange={handleChange}
+        autoFocus
       />
       <button className="search-button" type="submit">
         <Icon path={mdiMagnify} size={1} />
