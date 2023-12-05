@@ -1,0 +1,50 @@
+[
+    {
+        "name": "ViaJacobi, Stage 10/33",
+        "region": "Interlaken",
+        "category": "Hike",
+        "distance": "13 km",
+        "duration": "3 h 45 min",
+        "ascent": "n/a m",
+        "link": "https://www.myswitzerland.com/en-ch/experiences/route/viajacobi-4_10/",
+        "description": [
+            "The section leads alongside the River Aare to the Weissenau nature reserve on the Thunersee lake. From Neuhaus it continues through woodland, often with clear views of the lake and the Bernese Alps. The Beatush\u00f6hlen (caves), former place of pilgrimage of St. Beatus are particularly impressive.",
+            "There are a host of natural and cultural attractions on the pilgrim's route alongside Lake Thun. Picturesque churches, vineyards, drystone walls, rocky mountains and waterfalls are only some examples of this varied section of St. James' Way. The walk leads through both inhabited areas and nature reserves. The Beatus Caves, where the cell of Saint Beatus can be viewed, form the highlight of the way."
+        ],
+        "docno": 13
+    },
+    {
+        "name": "Aletsch Panoramaweg",
+        "region": "Aletsch Arena",
+        "category": "Hike",
+        "distance": "30 km",
+        "duration": "9 h",
+        "ascent": "n/a m",
+        "link": "https://www.myswitzerland.com/en-ch/experiences/route/aletsch-panoramaweg/",
+        "description": [
+            "Three days under the spell of the Valais glacier landscape. Sensational scenic tour with many vantage points onto the two longest glaciers in the Alps. The grey-white of ice and rock contrasting with shades of green in the Aletschwald (forest) provides stunning scenic beauty.",
+            "They are the two longest glaciers in the Alps: the Great Aletsch Glacier measuring around 23 km and the Fiescher Glacier 14 km long. Over thousands of years, they have shaped the majestic high-Alpine landscape of the Jungfrau, Bietschhorn and Finsteraarhorn. The region has been a UNESCO World Heritage Site since 2001. The Aletschbord at the Hotel Belalp and the Burgh\u00fctte at the foot of the Fiescher Glacier are two classic vantage points from which the lower parts of the mammoth masses of ice can be viewed. Each offers an insight into the stunning, unknown world of the permanent ice.",
+            "The Aletsch Panorama Trail runs from Belalp to Bellwald in three daily stages, each of a comfortable length. Offering sensational views, the tour focuses in turn on the Aletsch and Fiescher Glaciers. The effects of climate change also have implications for hikers; the route once ran across the Aletsch Glacier, but this is no longer possible due to unstable moraine slopes. Today, a 124-metre-long suspension bridge over the Massa Gorge 50 metres deep provides a safe link on the path from Belalp to Riederalp, where the Villa Cassel houses the Aletsch Pro-Natura Centre, gateway to the World Heritage. The Aletschwald is under a conservation order and has many centuries-old Swiss stone pines and a wealth of flora and fauna to discover.",
+            "Spectacular views from the vantage points at Hohfluh, Moosfluh and the Bettmerhorn top station, set in the icy heart of the World Heritage. The ice stream winds elegantly past three- and four-thousand metre summits, while the path leads over stone steps and slabs down to the M\u00e4rjelensee lake. The route runs gradually downhill on old Alpine paths. As you descend, the Fiescher Glacier reveals itself more and more. Your gaze wanders over the Burg rock massif in the foreground and the Goms mountains behind. Built in 2016, the Aspi-Titter suspension bridge is 160 metres long and marks another highlight on this unique tour.",
+            "Tip: for those who love suspension bridges, the Aletsch/Goms region has more really ",
+            "."
+        ],
+        "docno": 2
+    },
+    {
+        "name": "Toggenburger H\u00f6henweg, Stage 5/6",
+        "region": "Wattwil",
+        "category": "Hike",
+        "distance": "11 km",
+        "duration": "3 h 35 min",
+        "ascent": "n/a m",
+        "link": "https://www.myswitzerland.com/en-ch/experiences/route/toggenburger-hoehenweg-48_05/",
+        "description": [
+            "Chr\u00fczegg offers spectacular views of the Z\u00fcrichsee lake, the Glarus Aps and Alpstein as far as the Bodensee (Lake Constance). The Schnebelhorn, the highest mountain in Canton Z\u00fcrich (1292m), has to be scaled before the stage ends at Hulftegg.",
+            "Chr\u00fczegg at 1265 m is a small mountain pass with fantastic views of Lake Zurich, the mountains of Glarus, the Alpstein mountain range and all the way to Lake Constance. Chr\u00fczegg can only be reached on foot, but there are more than twenty different routes starting at various places, such as Wattwil, Liechtensteig, Ricken, Atzm\u00e4nnig, Dietfurt, and M\u00fchlr\u00fcti. The hiking time to the viewpoint depends on the route you choose. It is possible to spend the night at the mountain inn, which is connected to an alpine dairy. ",
+            "From Chr\u00fczegg the path leads to the peak of the same name. Further uphill and through the forest is the Habr\u00fctispitz with a summit cross and views of Upper Lake Zurich. Continue to Rossegg and about an hour later you get to the Alp Schindelberg mountain inn. Along the slope and a little further up, you reach Schindelbergh\u00f6chi below Schindelegg. Follow the ridge to the highest mountain in the Canton Zurich, Schnebelhorn at 1292 m. Take some time there to enjoy the gorgeous views of Lake Greifen and Lake Zurich, across the Zurich Oberland and the Toggenburg region. ",
+            "Then it\u2019s downhill all the way across Hirzegg, Roten and \u00c4lpli to Hulftegg. The pass (953 m) connects the Toggenburg with the upper T\u00f6sstal Valley between M\u00fchlr\u00fcti/Mosnang (Canton St. Gallen) and Steg/Fischenthal (Canton Zurich). Today\u2019s destination is located entirely in the Canton St. Gallen. A road was built across Hulftegg in 1866, which was used long ago by the pilgrims of the Way of St. James. The restaurant there is popular with bike and motorcycle riders as well as with bus tours."
+        ],
+        "docno": 700
+    }
+]
