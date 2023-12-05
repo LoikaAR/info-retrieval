@@ -2,6 +2,7 @@
 The json module contains functions related to handling HTTP requests and JSON data.
 """
 import json
+import os
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
@@ -63,22 +64,35 @@ from django.middleware.csrf import get_token
     # return JsonResponse({'message': 'Data added to request body successfully'})
 
 
+# def get_data(request):
+#     """
+#     Fetches data and returns it as a JSON response.
+
+#     Args:
+#     - request: HttpRequest object
+
+#     Returns:
+#     - JsonResponse: JSON response containing data
+#     """
+
+
 def get_data(request):
-    """
-    Fetches data and returns it as a JSON response.
+    # Path to your JSON file
+    json_file_path = 'ordered_json_file.json'  # Replace with the actual path
 
-    Args:
-    - request: HttpRequest object
+    # Check if the file exists
+    if os.path.exists(json_file_path):
+        # Open and read the contents of the JSON file
+        with open(json_file_path, 'r') as file:
+            json_data = json.load(file)
 
-    Returns:
-    - JsonResponse: JSON response containing data
-    """
-    data = None
-    with open('../myapp/ordered_json_file.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    request.data = data
+        # Return the JSON data as a JSON response
+        return JsonResponse(json_data,safe=False)
+    else:
+        
+        # Return a response indicating the file was not found
+        return JsonResponse({"error": "File not found"}, status=404)
 
-    return JsonResponse(data, safe=False)
 
 
 def get_csrf_token(request):
