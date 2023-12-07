@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types';
+import HighlightedText from './HighlightedText';
 
-const ResultBox = ({ name, region, category, distance, duration, ascent, description, link }) => {
+const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query }) => {
+ 
   return (
     <div className="result-box">
+      {console.log("the query iiiis: " + query.query)}
+      {/* {setArr(highlightQuery())} */}
       <a className="result-link" href={link} target="_blank" rel="noreferrer">
         <h2 className="result-title">
           {name}
@@ -22,9 +26,10 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
           Region: {region}
         </h3>
       </div>
-      <p className="result-description">
+      {/* <p className="result-description">
         {description}
-      </p>
+      </p> */}
+      <HighlightedText text={description} query={query}/>
     </div>
   );
 };
@@ -38,6 +43,7 @@ ResultBox.propTypes = {
   ascent: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  query: PropTypes.object.isRequired,
 };
 
 export default ResultBox;

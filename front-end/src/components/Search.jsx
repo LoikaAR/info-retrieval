@@ -55,7 +55,7 @@ function Search({ onPostSuccess }) {
         if (response.ok) {
           console.log('Form data submitted successfully');
           console.log("dataToSubmit: "+ JSON.stringify(dataToSubmit))
-          onPostSuccess(); // Trigger the function in App component to execute the GET request
+          onPostSuccess(formData); // Trigger the function in App component to execute the GET request
           // Handle success response from the backend
         } else {
           console.error('Error submitting form data');

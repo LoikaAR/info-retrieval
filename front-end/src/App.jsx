@@ -8,13 +8,15 @@ import { fetchData } from "./router.jsx";
 
 function App() {
   const [data, setData] = useState([]);
+  const [query,setQuery] = useState([]);
 
   // useEffect(() => {
   //   fetchData(setData);
   // }, []);
-  const handleSuccessfulPost = () => {
+  const handleSuccessfulPost = (query) => {
     // Function to handle successful post request triggering the get request
     fetchData(setData);
+    setQuery(query);
   };
   return (
     <>
@@ -34,6 +36,7 @@ function App() {
               duration={item.duration}
               ascent={item.ascent}
               description={item.description.join('\n')}
+              query={query}
             />
           ))}
     </main>
