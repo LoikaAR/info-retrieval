@@ -1,0 +1,9 @@
+User Evaluation tasks:
++ Search for a hike called ViaJacobi
++ Search for a hike of any name, a cycling activity of any name, and an "Adventure" of any name
++ Filter results by Any Activity
++ Search for all hikes in Interlaken region
+
+
+Link to the questionnaire:
+https://forms.gle/hBoFCugCCuUija899

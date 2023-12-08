@@ -1,0 +1,3938 @@
+[
+    {
+        "qid": "q1",
+        "docid": 929,
+        "docno": "d929",
+        "rank": 0,
+        "score": 28.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 878,
+        "docno": "d878",
+        "rank": 1,
+        "score": 15.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 945,
+        "docno": "d945",
+        "rank": 2,
+        "score": 15.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 922,
+        "docno": "d922",
+        "rank": 3,
+        "score": 13.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 901,
+        "docno": "d901",
+        "rank": 4,
+        "score": 12.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 931,
+        "docno": "d931",
+        "rank": 5,
+        "score": 12.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 228,
+        "docno": "d228",
+        "rank": 6,
+        "score": 11.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 916,
+        "docno": "d916",
+        "rank": 7,
+        "score": 11.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 213,
+        "docno": "d213",
+        "rank": 8,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 341,
+        "docno": "d341",
+        "rank": 9,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 366,
+        "docno": "d366",
+        "rank": 10,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 383,
+        "docno": "d383",
+        "rank": 11,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 385,
+        "docno": "d385",
+        "rank": 12,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 396,
+        "docno": "d396",
+        "rank": 13,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 427,
+        "docno": "d427",
+        "rank": 14,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 653,
+        "docno": "d653",
+        "rank": 15,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 913,
+        "docno": "d913",
+        "rank": 16,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 919,
+        "docno": "d919",
+        "rank": 17,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 997,
+        "docno": "d997",
+        "rank": 18,
+        "score": 9.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 567,
+        "docno": "d567",
+        "rank": 19,
+        "score": 8.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 917,
+        "docno": "d917",
+        "rank": 20,
+        "score": 8.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 925,
+        "docno": "d925",
+        "rank": 21,
+        "score": 8.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1007,
+        "docno": "d1007",
+        "rank": 22,
+        "score": 8.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 256,
+        "docno": "d256",
+        "rank": 23,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 282,
+        "docno": "d282",
+        "rank": 24,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 309,
+        "docno": "d309",
+        "rank": 25,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 546,
+        "docno": "d546",
+        "rank": 26,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 571,
+        "docno": "d571",
+        "rank": 27,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 593,
+        "docno": "d593",
+        "rank": 28,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 686,
+        "docno": "d686",
+        "rank": 29,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 700,
+        "docno": "d700",
+        "rank": 30,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 826,
+        "docno": "d826",
+        "rank": 31,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 918,
+        "docno": "d918",
+        "rank": 32,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 932,
+        "docno": "d932",
+        "rank": 33,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 998,
+        "docno": "d998",
+        "rank": 34,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1005,
+        "docno": "d1005",
+        "rank": 35,
+        "score": 7.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 40,
+        "docno": "d40",
+        "rank": 36,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 74,
+        "docno": "d74",
+        "rank": 37,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 248,
+        "docno": "d248",
+        "rank": 38,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 322,
+        "docno": "d322",
+        "rank": 39,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 334,
+        "docno": "d334",
+        "rank": 40,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 369,
+        "docno": "d369",
+        "rank": 41,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 373,
+        "docno": "d373",
+        "rank": 42,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 386,
+        "docno": "d386",
+        "rank": 43,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 420,
+        "docno": "d420",
+        "rank": 44,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 538,
+        "docno": "d538",
+        "rank": 45,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 555,
+        "docno": "d555",
+        "rank": 46,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 669,
+        "docno": "d669",
+        "rank": 47,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 942,
+        "docno": "d942",
+        "rank": 48,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 965,
+        "docno": "d965",
+        "rank": 49,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 966,
+        "docno": "d966",
+        "rank": 50,
+        "score": 6.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1,
+        "docno": "d1",
+        "rank": 51,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 3,
+        "docno": "d3",
+        "rank": 52,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 85,
+        "docno": "d85",
+        "rank": 53,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 110,
+        "docno": "d110",
+        "rank": 54,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 127,
+        "docno": "d127",
+        "rank": 55,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 199,
+        "docno": "d199",
+        "rank": 56,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 208,
+        "docno": "d208",
+        "rank": 57,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 223,
+        "docno": "d223",
+        "rank": 58,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 257,
+        "docno": "d257",
+        "rank": 59,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 291,
+        "docno": "d291",
+        "rank": 60,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 312,
+        "docno": "d312",
+        "rank": 61,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 354,
+        "docno": "d354",
+        "rank": 62,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 363,
+        "docno": "d363",
+        "rank": 63,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 393,
+        "docno": "d393",
+        "rank": 64,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 425,
+        "docno": "d425",
+        "rank": 65,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 431,
+        "docno": "d431",
+        "rank": 66,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 468,
+        "docno": "d468",
+        "rank": 67,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 476,
+        "docno": "d476",
+        "rank": 68,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 478,
+        "docno": "d478",
+        "rank": 69,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 605,
+        "docno": "d605",
+        "rank": 70,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 609,
+        "docno": "d609",
+        "rank": 71,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 628,
+        "docno": "d628",
+        "rank": 72,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 644,
+        "docno": "d644",
+        "rank": 73,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 649,
+        "docno": "d649",
+        "rank": 74,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 659,
+        "docno": "d659",
+        "rank": 75,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 665,
+        "docno": "d665",
+        "rank": 76,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 687,
+        "docno": "d687",
+        "rank": 77,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 818,
+        "docno": "d818",
+        "rank": 78,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 875,
+        "docno": "d875",
+        "rank": 79,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 896,
+        "docno": "d896",
+        "rank": 80,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 900,
+        "docno": "d900",
+        "rank": 81,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 903,
+        "docno": "d903",
+        "rank": 82,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 934,
+        "docno": "d934",
+        "rank": 83,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 971,
+        "docno": "d971",
+        "rank": 84,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 972,
+        "docno": "d972",
+        "rank": 85,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 974,
+        "docno": "d974",
+        "rank": 86,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 976,
+        "docno": "d976",
+        "rank": 87,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 981,
+        "docno": "d981",
+        "rank": 88,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 982,
+        "docno": "d982",
+        "rank": 89,
+        "score": 5.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 9,
+        "docno": "d9",
+        "rank": 90,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 27,
+        "docno": "d27",
+        "rank": 91,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 75,
+        "docno": "d75",
+        "rank": 92,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 78,
+        "docno": "d78",
+        "rank": 93,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 93,
+        "docno": "d93",
+        "rank": 94,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 146,
+        "docno": "d146",
+        "rank": 95,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 179,
+        "docno": "d179",
+        "rank": 96,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 211,
+        "docno": "d211",
+        "rank": 97,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 216,
+        "docno": "d216",
+        "rank": 98,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 217,
+        "docno": "d217",
+        "rank": 99,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 278,
+        "docno": "d278",
+        "rank": 100,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 295,
+        "docno": "d295",
+        "rank": 101,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 314,
+        "docno": "d314",
+        "rank": 102,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 335,
+        "docno": "d335",
+        "rank": 103,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 351,
+        "docno": "d351",
+        "rank": 104,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 377,
+        "docno": "d377",
+        "rank": 105,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 408,
+        "docno": "d408",
+        "rank": 106,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 432,
+        "docno": "d432",
+        "rank": 107,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 440,
+        "docno": "d440",
+        "rank": 108,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 461,
+        "docno": "d461",
+        "rank": 109,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 487,
+        "docno": "d487",
+        "rank": 110,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 495,
+        "docno": "d495",
+        "rank": 111,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 535,
+        "docno": "d535",
+        "rank": 112,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 543,
+        "docno": "d543",
+        "rank": 113,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 545,
+        "docno": "d545",
+        "rank": 114,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 577,
+        "docno": "d577",
+        "rank": 115,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 590,
+        "docno": "d590",
+        "rank": 116,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 615,
+        "docno": "d615",
+        "rank": 117,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 673,
+        "docno": "d673",
+        "rank": 118,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 682,
+        "docno": "d682",
+        "rank": 119,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 695,
+        "docno": "d695",
+        "rank": 120,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 706,
+        "docno": "d706",
+        "rank": 121,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 716,
+        "docno": "d716",
+        "rank": 122,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 874,
+        "docno": "d874",
+        "rank": 123,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 890,
+        "docno": "d890",
+        "rank": 124,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 895,
+        "docno": "d895",
+        "rank": 125,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 897,
+        "docno": "d897",
+        "rank": 126,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 898,
+        "docno": "d898",
+        "rank": 127,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 905,
+        "docno": "d905",
+        "rank": 128,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 927,
+        "docno": "d927",
+        "rank": 129,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 928,
+        "docno": "d928",
+        "rank": 130,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 941,
+        "docno": "d941",
+        "rank": 131,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 955,
+        "docno": "d955",
+        "rank": 132,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 959,
+        "docno": "d959",
+        "rank": 133,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 962,
+        "docno": "d962",
+        "rank": 134,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 968,
+        "docno": "d968",
+        "rank": 135,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 970,
+        "docno": "d970",
+        "rank": 136,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1004,
+        "docno": "d1004",
+        "rank": 137,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1008,
+        "docno": "d1008",
+        "rank": 138,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1012,
+        "docno": "d1012",
+        "rank": 139,
+        "score": 4.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 8,
+        "docno": "d8",
+        "rank": 140,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 13,
+        "docno": "d13",
+        "rank": 141,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 32,
+        "docno": "d32",
+        "rank": 142,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 34,
+        "docno": "d34",
+        "rank": 143,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 38,
+        "docno": "d38",
+        "rank": 144,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 89,
+        "docno": "d89",
+        "rank": 145,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 91,
+        "docno": "d91",
+        "rank": 146,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 122,
+        "docno": "d122",
+        "rank": 147,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 124,
+        "docno": "d124",
+        "rank": 148,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 131,
+        "docno": "d131",
+        "rank": 149,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 161,
+        "docno": "d161",
+        "rank": 150,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 170,
+        "docno": "d170",
+        "rank": 151,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 184,
+        "docno": "d184",
+        "rank": 152,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 214,
+        "docno": "d214",
+        "rank": 153,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 240,
+        "docno": "d240",
+        "rank": 154,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 255,
+        "docno": "d255",
+        "rank": 155,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 265,
+        "docno": "d265",
+        "rank": 156,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 280,
+        "docno": "d280",
+        "rank": 157,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 284,
+        "docno": "d284",
+        "rank": 158,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 327,
+        "docno": "d327",
+        "rank": 159,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 331,
+        "docno": "d331",
+        "rank": 160,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 337,
+        "docno": "d337",
+        "rank": 161,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 338,
+        "docno": "d338",
+        "rank": 162,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 357,
+        "docno": "d357",
+        "rank": 163,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 390,
+        "docno": "d390",
+        "rank": 164,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 391,
+        "docno": "d391",
+        "rank": 165,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 399,
+        "docno": "d399",
+        "rank": 166,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 401,
+        "docno": "d401",
+        "rank": 167,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 403,
+        "docno": "d403",
+        "rank": 168,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 404,
+        "docno": "d404",
+        "rank": 169,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 453,
+        "docno": "d453",
+        "rank": 170,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 456,
+        "docno": "d456",
+        "rank": 171,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 469,
+        "docno": "d469",
+        "rank": 172,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 475,
+        "docno": "d475",
+        "rank": 173,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 494,
+        "docno": "d494",
+        "rank": 174,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 499,
+        "docno": "d499",
+        "rank": 175,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 508,
+        "docno": "d508",
+        "rank": 176,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 518,
+        "docno": "d518",
+        "rank": 177,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 527,
+        "docno": "d527",
+        "rank": 178,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 531,
+        "docno": "d531",
+        "rank": 179,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 566,
+        "docno": "d566",
+        "rank": 180,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 583,
+        "docno": "d583",
+        "rank": 181,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 588,
+        "docno": "d588",
+        "rank": 182,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 616,
+        "docno": "d616",
+        "rank": 183,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 624,
+        "docno": "d624",
+        "rank": 184,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 633,
+        "docno": "d633",
+        "rank": 185,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 647,
+        "docno": "d647",
+        "rank": 186,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 651,
+        "docno": "d651",
+        "rank": 187,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 655,
+        "docno": "d655",
+        "rank": 188,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 667,
+        "docno": "d667",
+        "rank": 189,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 668,
+        "docno": "d668",
+        "rank": 190,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 684,
+        "docno": "d684",
+        "rank": 191,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 690,
+        "docno": "d690",
+        "rank": 192,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 703,
+        "docno": "d703",
+        "rank": 193,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 723,
+        "docno": "d723",
+        "rank": 194,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 726,
+        "docno": "d726",
+        "rank": 195,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 745,
+        "docno": "d745",
+        "rank": 196,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 876,
+        "docno": "d876",
+        "rank": 197,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 879,
+        "docno": "d879",
+        "rank": 198,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 880,
+        "docno": "d880",
+        "rank": 199,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 884,
+        "docno": "d884",
+        "rank": 200,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 886,
+        "docno": "d886",
+        "rank": 201,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 899,
+        "docno": "d899",
+        "rank": 202,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 908,
+        "docno": "d908",
+        "rank": 203,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 909,
+        "docno": "d909",
+        "rank": 204,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 910,
+        "docno": "d910",
+        "rank": 205,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 923,
+        "docno": "d923",
+        "rank": 206,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 926,
+        "docno": "d926",
+        "rank": 207,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 933,
+        "docno": "d933",
+        "rank": 208,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 935,
+        "docno": "d935",
+        "rank": 209,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 937,
+        "docno": "d937",
+        "rank": 210,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 944,
+        "docno": "d944",
+        "rank": 211,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 946,
+        "docno": "d946",
+        "rank": 212,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 947,
+        "docno": "d947",
+        "rank": 213,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 950,
+        "docno": "d950",
+        "rank": 214,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 953,
+        "docno": "d953",
+        "rank": 215,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 960,
+        "docno": "d960",
+        "rank": 216,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 963,
+        "docno": "d963",
+        "rank": 217,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 964,
+        "docno": "d964",
+        "rank": 218,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 978,
+        "docno": "d978",
+        "rank": 219,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 991,
+        "docno": "d991",
+        "rank": 220,
+        "score": 3.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 20,
+        "docno": "d20",
+        "rank": 221,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 29,
+        "docno": "d29",
+        "rank": 222,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 37,
+        "docno": "d37",
+        "rank": 223,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 41,
+        "docno": "d41",
+        "rank": 224,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 42,
+        "docno": "d42",
+        "rank": 225,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 44,
+        "docno": "d44",
+        "rank": 226,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 47,
+        "docno": "d47",
+        "rank": 227,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 52,
+        "docno": "d52",
+        "rank": 228,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 55,
+        "docno": "d55",
+        "rank": 229,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 69,
+        "docno": "d69",
+        "rank": 230,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 96,
+        "docno": "d96",
+        "rank": 231,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 102,
+        "docno": "d102",
+        "rank": 232,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 103,
+        "docno": "d103",
+        "rank": 233,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 108,
+        "docno": "d108",
+        "rank": 234,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 114,
+        "docno": "d114",
+        "rank": 235,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 121,
+        "docno": "d121",
+        "rank": 236,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 132,
+        "docno": "d132",
+        "rank": 237,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 133,
+        "docno": "d133",
+        "rank": 238,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 145,
+        "docno": "d145",
+        "rank": 239,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 150,
+        "docno": "d150",
+        "rank": 240,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 151,
+        "docno": "d151",
+        "rank": 241,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 152,
+        "docno": "d152",
+        "rank": 242,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 156,
+        "docno": "d156",
+        "rank": 243,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 160,
+        "docno": "d160",
+        "rank": 244,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 167,
+        "docno": "d167",
+        "rank": 245,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 171,
+        "docno": "d171",
+        "rank": 246,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 173,
+        "docno": "d173",
+        "rank": 247,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 186,
+        "docno": "d186",
+        "rank": 248,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 192,
+        "docno": "d192",
+        "rank": 249,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 196,
+        "docno": "d196",
+        "rank": 250,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 198,
+        "docno": "d198",
+        "rank": 251,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 212,
+        "docno": "d212",
+        "rank": 252,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 218,
+        "docno": "d218",
+        "rank": 253,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 219,
+        "docno": "d219",
+        "rank": 254,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 225,
+        "docno": "d225",
+        "rank": 255,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 239,
+        "docno": "d239",
+        "rank": 256,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 249,
+        "docno": "d249",
+        "rank": 257,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 261,
+        "docno": "d261",
+        "rank": 258,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 262,
+        "docno": "d262",
+        "rank": 259,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 263,
+        "docno": "d263",
+        "rank": 260,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 268,
+        "docno": "d268",
+        "rank": 261,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 272,
+        "docno": "d272",
+        "rank": 262,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 273,
+        "docno": "d273",
+        "rank": 263,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 281,
+        "docno": "d281",
+        "rank": 264,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 296,
+        "docno": "d296",
+        "rank": 265,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 299,
+        "docno": "d299",
+        "rank": 266,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 319,
+        "docno": "d319",
+        "rank": 267,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 326,
+        "docno": "d326",
+        "rank": 268,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 342,
+        "docno": "d342",
+        "rank": 269,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 344,
+        "docno": "d344",
+        "rank": 270,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 370,
+        "docno": "d370",
+        "rank": 271,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 384,
+        "docno": "d384",
+        "rank": 272,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 397,
+        "docno": "d397",
+        "rank": 273,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 398,
+        "docno": "d398",
+        "rank": 274,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 412,
+        "docno": "d412",
+        "rank": 275,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 426,
+        "docno": "d426",
+        "rank": 276,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 438,
+        "docno": "d438",
+        "rank": 277,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 441,
+        "docno": "d441",
+        "rank": 278,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 442,
+        "docno": "d442",
+        "rank": 279,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 445,
+        "docno": "d445",
+        "rank": 280,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 462,
+        "docno": "d462",
+        "rank": 281,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 463,
+        "docno": "d463",
+        "rank": 282,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 486,
+        "docno": "d486",
+        "rank": 283,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 512,
+        "docno": "d512",
+        "rank": 284,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 521,
+        "docno": "d521",
+        "rank": 285,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 533,
+        "docno": "d533",
+        "rank": 286,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 534,
+        "docno": "d534",
+        "rank": 287,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 556,
+        "docno": "d556",
+        "rank": 288,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 572,
+        "docno": "d572",
+        "rank": 289,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 594,
+        "docno": "d594",
+        "rank": 290,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 606,
+        "docno": "d606",
+        "rank": 291,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 607,
+        "docno": "d607",
+        "rank": 292,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 618,
+        "docno": "d618",
+        "rank": 293,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 625,
+        "docno": "d625",
+        "rank": 294,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 656,
+        "docno": "d656",
+        "rank": 295,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 660,
+        "docno": "d660",
+        "rank": 296,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 663,
+        "docno": "d663",
+        "rank": 297,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 664,
+        "docno": "d664",
+        "rank": 298,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 693,
+        "docno": "d693",
+        "rank": 299,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 694,
+        "docno": "d694",
+        "rank": 300,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 715,
+        "docno": "d715",
+        "rank": 301,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 719,
+        "docno": "d719",
+        "rank": 302,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 727,
+        "docno": "d727",
+        "rank": 303,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 827,
+        "docno": "d827",
+        "rank": 304,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 831,
+        "docno": "d831",
+        "rank": 305,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 841,
+        "docno": "d841",
+        "rank": 306,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 872,
+        "docno": "d872",
+        "rank": 307,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 873,
+        "docno": "d873",
+        "rank": 308,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 888,
+        "docno": "d888",
+        "rank": 309,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 911,
+        "docno": "d911",
+        "rank": 310,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 915,
+        "docno": "d915",
+        "rank": 311,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 920,
+        "docno": "d920",
+        "rank": 312,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 921,
+        "docno": "d921",
+        "rank": 313,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 954,
+        "docno": "d954",
+        "rank": 314,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 979,
+        "docno": "d979",
+        "rank": 315,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 983,
+        "docno": "d983",
+        "rank": 316,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 985,
+        "docno": "d985",
+        "rank": 317,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 986,
+        "docno": "d986",
+        "rank": 318,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 988,
+        "docno": "d988",
+        "rank": 319,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 989,
+        "docno": "d989",
+        "rank": 320,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 995,
+        "docno": "d995",
+        "rank": 321,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 996,
+        "docno": "d996",
+        "rank": 322,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1003,
+        "docno": "d1003",
+        "rank": 323,
+        "score": 2.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 2,
+        "docno": "d2",
+        "rank": 324,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 5,
+        "docno": "d5",
+        "rank": 325,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 10,
+        "docno": "d10",
+        "rank": 326,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 11,
+        "docno": "d11",
+        "rank": 327,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 12,
+        "docno": "d12",
+        "rank": 328,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 21,
+        "docno": "d21",
+        "rank": 329,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 33,
+        "docno": "d33",
+        "rank": 330,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 35,
+        "docno": "d35",
+        "rank": 331,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 36,
+        "docno": "d36",
+        "rank": 332,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 43,
+        "docno": "d43",
+        "rank": 333,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 45,
+        "docno": "d45",
+        "rank": 334,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 46,
+        "docno": "d46",
+        "rank": 335,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 50,
+        "docno": "d50",
+        "rank": 336,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 53,
+        "docno": "d53",
+        "rank": 337,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 59,
+        "docno": "d59",
+        "rank": 338,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 72,
+        "docno": "d72",
+        "rank": 339,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 79,
+        "docno": "d79",
+        "rank": 340,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 86,
+        "docno": "d86",
+        "rank": 341,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 88,
+        "docno": "d88",
+        "rank": 342,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 94,
+        "docno": "d94",
+        "rank": 343,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 97,
+        "docno": "d97",
+        "rank": 344,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 100,
+        "docno": "d100",
+        "rank": 345,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 105,
+        "docno": "d105",
+        "rank": 346,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 106,
+        "docno": "d106",
+        "rank": 347,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 117,
+        "docno": "d117",
+        "rank": 348,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 128,
+        "docno": "d128",
+        "rank": 349,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 136,
+        "docno": "d136",
+        "rank": 350,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 142,
+        "docno": "d142",
+        "rank": 351,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 144,
+        "docno": "d144",
+        "rank": 352,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 147,
+        "docno": "d147",
+        "rank": 353,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 155,
+        "docno": "d155",
+        "rank": 354,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 158,
+        "docno": "d158",
+        "rank": 355,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 159,
+        "docno": "d159",
+        "rank": 356,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 163,
+        "docno": "d163",
+        "rank": 357,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 166,
+        "docno": "d166",
+        "rank": 358,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 172,
+        "docno": "d172",
+        "rank": 359,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 183,
+        "docno": "d183",
+        "rank": 360,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 200,
+        "docno": "d200",
+        "rank": 361,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 202,
+        "docno": "d202",
+        "rank": 362,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 203,
+        "docno": "d203",
+        "rank": 363,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 204,
+        "docno": "d204",
+        "rank": 364,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 209,
+        "docno": "d209",
+        "rank": 365,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 220,
+        "docno": "d220",
+        "rank": 366,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 224,
+        "docno": "d224",
+        "rank": 367,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 226,
+        "docno": "d226",
+        "rank": 368,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 230,
+        "docno": "d230",
+        "rank": 369,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 231,
+        "docno": "d231",
+        "rank": 370,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 235,
+        "docno": "d235",
+        "rank": 371,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 237,
+        "docno": "d237",
+        "rank": 372,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 238,
+        "docno": "d238",
+        "rank": 373,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 244,
+        "docno": "d244",
+        "rank": 374,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 245,
+        "docno": "d245",
+        "rank": 375,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 252,
+        "docno": "d252",
+        "rank": 376,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 254,
+        "docno": "d254",
+        "rank": 377,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 264,
+        "docno": "d264",
+        "rank": 378,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 266,
+        "docno": "d266",
+        "rank": 379,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 267,
+        "docno": "d267",
+        "rank": 380,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 270,
+        "docno": "d270",
+        "rank": 381,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 294,
+        "docno": "d294",
+        "rank": 382,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 303,
+        "docno": "d303",
+        "rank": 383,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 310,
+        "docno": "d310",
+        "rank": 384,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 311,
+        "docno": "d311",
+        "rank": 385,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 350,
+        "docno": "d350",
+        "rank": 386,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 367,
+        "docno": "d367",
+        "rank": 387,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 400,
+        "docno": "d400",
+        "rank": 388,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 406,
+        "docno": "d406",
+        "rank": 389,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 407,
+        "docno": "d407",
+        "rank": 390,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 414,
+        "docno": "d414",
+        "rank": 391,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 417,
+        "docno": "d417",
+        "rank": 392,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 428,
+        "docno": "d428",
+        "rank": 393,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 429,
+        "docno": "d429",
+        "rank": 394,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 430,
+        "docno": "d430",
+        "rank": 395,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 443,
+        "docno": "d443",
+        "rank": 396,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 448,
+        "docno": "d448",
+        "rank": 397,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 449,
+        "docno": "d449",
+        "rank": 398,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 450,
+        "docno": "d450",
+        "rank": 399,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 451,
+        "docno": "d451",
+        "rank": 400,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 454,
+        "docno": "d454",
+        "rank": 401,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 458,
+        "docno": "d458",
+        "rank": 402,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 474,
+        "docno": "d474",
+        "rank": 403,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 477,
+        "docno": "d477",
+        "rank": 404,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 481,
+        "docno": "d481",
+        "rank": 405,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 492,
+        "docno": "d492",
+        "rank": 406,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 496,
+        "docno": "d496",
+        "rank": 407,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 509,
+        "docno": "d509",
+        "rank": 408,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 513,
+        "docno": "d513",
+        "rank": 409,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 517,
+        "docno": "d517",
+        "rank": 410,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 519,
+        "docno": "d519",
+        "rank": 411,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 532,
+        "docno": "d532",
+        "rank": 412,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 536,
+        "docno": "d536",
+        "rank": 413,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 541,
+        "docno": "d541",
+        "rank": 414,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 547,
+        "docno": "d547",
+        "rank": 415,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 550,
+        "docno": "d550",
+        "rank": 416,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 560,
+        "docno": "d560",
+        "rank": 417,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 562,
+        "docno": "d562",
+        "rank": 418,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 563,
+        "docno": "d563",
+        "rank": 419,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 570,
+        "docno": "d570",
+        "rank": 420,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 576,
+        "docno": "d576",
+        "rank": 421,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 578,
+        "docno": "d578",
+        "rank": 422,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 579,
+        "docno": "d579",
+        "rank": 423,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 587,
+        "docno": "d587",
+        "rank": 424,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 589,
+        "docno": "d589",
+        "rank": 425,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 595,
+        "docno": "d595",
+        "rank": 426,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 599,
+        "docno": "d599",
+        "rank": 427,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 601,
+        "docno": "d601",
+        "rank": 428,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 604,
+        "docno": "d604",
+        "rank": 429,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 608,
+        "docno": "d608",
+        "rank": 430,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 612,
+        "docno": "d612",
+        "rank": 431,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 617,
+        "docno": "d617",
+        "rank": 432,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 634,
+        "docno": "d634",
+        "rank": 433,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 645,
+        "docno": "d645",
+        "rank": 434,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 654,
+        "docno": "d654",
+        "rank": 435,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 662,
+        "docno": "d662",
+        "rank": 436,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 666,
+        "docno": "d666",
+        "rank": 437,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 675,
+        "docno": "d675",
+        "rank": 438,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 689,
+        "docno": "d689",
+        "rank": 439,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 691,
+        "docno": "d691",
+        "rank": 440,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 699,
+        "docno": "d699",
+        "rank": 441,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 701,
+        "docno": "d701",
+        "rank": 442,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 705,
+        "docno": "d705",
+        "rank": 443,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 709,
+        "docno": "d709",
+        "rank": 444,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 710,
+        "docno": "d710",
+        "rank": 445,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 711,
+        "docno": "d711",
+        "rank": 446,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 713,
+        "docno": "d713",
+        "rank": 447,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 717,
+        "docno": "d717",
+        "rank": 448,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 721,
+        "docno": "d721",
+        "rank": 449,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 722,
+        "docno": "d722",
+        "rank": 450,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 776,
+        "docno": "d776",
+        "rank": 451,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 796,
+        "docno": "d796",
+        "rank": 452,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 805,
+        "docno": "d805",
+        "rank": 453,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 811,
+        "docno": "d811",
+        "rank": 454,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 830,
+        "docno": "d830",
+        "rank": 455,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 835,
+        "docno": "d835",
+        "rank": 456,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 837,
+        "docno": "d837",
+        "rank": 457,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 838,
+        "docno": "d838",
+        "rank": 458,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 848,
+        "docno": "d848",
+        "rank": 459,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 849,
+        "docno": "d849",
+        "rank": 460,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 863,
+        "docno": "d863",
+        "rank": 461,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 866,
+        "docno": "d866",
+        "rank": 462,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 871,
+        "docno": "d871",
+        "rank": 463,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 877,
+        "docno": "d877",
+        "rank": 464,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 883,
+        "docno": "d883",
+        "rank": 465,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 887,
+        "docno": "d887",
+        "rank": 466,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 889,
+        "docno": "d889",
+        "rank": 467,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 892,
+        "docno": "d892",
+        "rank": 468,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 894,
+        "docno": "d894",
+        "rank": 469,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 904,
+        "docno": "d904",
+        "rank": 470,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 906,
+        "docno": "d906",
+        "rank": 471,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 907,
+        "docno": "d907",
+        "rank": 472,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 912,
+        "docno": "d912",
+        "rank": 473,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 924,
+        "docno": "d924",
+        "rank": 474,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 930,
+        "docno": "d930",
+        "rank": 475,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 938,
+        "docno": "d938",
+        "rank": 476,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 940,
+        "docno": "d940",
+        "rank": 477,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 949,
+        "docno": "d949",
+        "rank": 478,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 952,
+        "docno": "d952",
+        "rank": 479,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 957,
+        "docno": "d957",
+        "rank": 480,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 958,
+        "docno": "d958",
+        "rank": 481,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 969,
+        "docno": "d969",
+        "rank": 482,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 973,
+        "docno": "d973",
+        "rank": 483,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 980,
+        "docno": "d980",
+        "rank": 484,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 987,
+        "docno": "d987",
+        "rank": 485,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 990,
+        "docno": "d990",
+        "rank": 486,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 992,
+        "docno": "d992",
+        "rank": 487,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 999,
+        "docno": "d999",
+        "rank": 488,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1001,
+        "docno": "d1001",
+        "rank": 489,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1006,
+        "docno": "d1006",
+        "rank": 490,
+        "score": 1.0,
+        "query": "lake ticino"
+    },
+    {
+        "qid": "q1",
+        "docid": 1011,
+        "docno": "d1011",
+        "rank": 491,
+        "score": 1.0,
+        "query": "lake ticino"
+    }
+]

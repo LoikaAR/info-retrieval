@@ -32,7 +32,7 @@ function App() {
               distance={item.distance}
               duration={item.duration}
               ascent={item.ascent}
-              description={item.description.join('\n')}
+              description={item.description}
               query={query}
             />
           ))}

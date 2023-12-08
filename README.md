@@ -38,7 +38,7 @@ Files:
 + hiking_ch2
     + crawls the hiking section of myswitzerland.ch 
 
+
+
 TODO:
-+ front end (thank you Delara)
-+ scrape activities from myswitzerland.ch
-+ back-front end interface
++ User eval
