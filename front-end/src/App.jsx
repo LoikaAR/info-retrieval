@@ -10,9 +10,6 @@ function App() {
   const [data, setData] = useState([]);
   const [query,setQuery] = useState([]);
 
-  // useEffect(() => {
-  //   fetchData(setData);
-  // }, []);
   const handleSuccessfulPost = (query) => {
     // Function to handle successful post request triggering the get request
     fetchData(setData);
