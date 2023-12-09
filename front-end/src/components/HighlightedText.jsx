@@ -10,7 +10,7 @@ const HighlightedText = ({ text, query }) => {
   const preprocessedWords = queryWords.map(function(word) {
     return removePunctuation(word)
   });
-  
+
   const words = text.split(/\b/);
 
   return (
@@ -18,7 +18,11 @@ const HighlightedText = ({ text, query }) => {
       {words.map((word, index) => {
         const isHighlighted = preprocessedWords.includes(word.trim().toLowerCase()) && word.trim().length > 0;
         return (
-          <span key={index} style={{ backgroundColor: isHighlighted ? '#93cf72' : 'transparent', borderRadius:  '5px'}}>
+          <span key={index} style={{ backgroundColor: isHighlighted ? 'var(--secondary)' : 'transparent', borderRadius:  '5px', color: isHighlighted ? 'var(--primary)' : 'black',
+          paddingLeft:  isHighlighted ? '2px' : '',
+          paddingRight:  isHighlighted ? '2px' : '',
+          borderColor:  'var(--secondary)', 
+          }}>
             {word}
           </span>
         );

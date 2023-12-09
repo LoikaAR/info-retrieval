@@ -72,7 +72,7 @@ function App() {
         <li key={i}>
           <button
             onClick={() => paginate(i)}
-            style={currentPage === i ? {'borderColor':  'var(--secondary)', backgroundColor: 'var(--secondary)', color: 'var(--primary)' } : {}}>
+            style={currentPage === i ? {backgroundColor: 'var(--secondary)', color: 'var(--primary)', borderColor: 'var(--secondary)' } : {}}>
             {i}
           </button>
         </li>
