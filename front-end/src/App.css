@@ -184,9 +184,20 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
-  /* number of lines to display */
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+}
+
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1vh;
+  column-gap: 0.5vw;
 }
 
 
@@ -209,18 +220,21 @@ a {
   margin-bottom: 3rem;
 }
 
-.select-button {
+.select-button, .pagination li button {
   font-family: 'Titillium Web', sans-serif;
-  width: 100%;
-  font-size: 18px;
+  font-weight: 600;
+  min-width: 2.3vw;
+  font-size: 14px;
   /* background: linear-gradient(to bottom, var(--primary), rgb(202, 207, 186)); */
   background-color: var(--primary);
   color: rgb(91, 89, 89);
-  padding: 8px 12px;
+  padding: 2px 4px;
   border: 1px solid var(--primary);
   border-radius: 10px;
   cursor: pointer;
+}
 
+.select-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
