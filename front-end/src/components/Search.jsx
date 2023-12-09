@@ -41,7 +41,7 @@ function Search({ onPostSuccess }) {
 
       if (csrftoken) {
         // Merge form data with selectedOptions object for submission (for filtering purposes in the back-end)
-        formData.query = formData.query.replace(/[^\w]/g, '');
+        // formData.query = formData.query.replace(/[^\w]/g, '');
         const dataToSubmit = { ...formData, ...selectedOptions };
 
         const response = await fetch('http://127.0.0.1:8000/api/submit-form/', {
