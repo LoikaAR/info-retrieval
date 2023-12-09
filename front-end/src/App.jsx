@@ -70,10 +70,15 @@ function App() {
     for (let i = startPage; i <= endPage; i++) {
       buttons.push(
         <li key={i}>
-          <button onClick={() => paginate(i)}>{i}</button>
+          <button
+            onClick={() => paginate(i)}
+            style={currentPage === i ? {'borderColor':  'var(--secondary)', backgroundColor: 'var(--secondary)', color: 'var(--primary)' } : {}}>
+            {i}
+          </button>
         </li>
       );
     }
+    
 
     // Rendering "Go to End" button
     if (endPage !== totalPages) {

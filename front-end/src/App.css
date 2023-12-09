@@ -228,7 +228,7 @@ a {
   /* background: linear-gradient(to bottom, var(--primary), rgb(202, 207, 186)); */
   background-color: var(--primary);
   color: rgb(91, 89, 89);
-  padding: 2px 4px;
+  padding: 4px 4px;
   border: 1px solid var(--primary);
   border-radius: 10px;
   cursor: pointer;
