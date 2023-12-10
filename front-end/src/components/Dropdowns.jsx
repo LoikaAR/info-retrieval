@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Dropdown from './Dropdown';
-import { fetchRegionOptions } from '../router.jsx';
+import { fetchRegionOptions, fetchCategoryOptions } from '../router.jsx';
 
 const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
   const [regionOptions, setRegionOptions] = useState([]);
+  const [categoryOptions, setCategoryOptions] = useState([]);
 
   const handleOptionSelection = (field, option) => {
     handleOptionChange(field, option);
@@ -12,6 +13,7 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
   
   useEffect(() => {
     fetchRegionOptions(setRegionOptions); 
+    fetchCategoryOptions(setCategoryOptions); 
   }, []);
 
    // Empty dependency array ensures this effect runs only once after initial render
@@ -19,7 +21,7 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
   return (
     <div className="dropdowns">
       <Dropdown
-        options={['Hiking', 'Biking', 'Adventure', 'Any Activity']}
+        options={categoryOptions.concat(['Any Category'])}
         selectedOption={selectedOptions.category}
         setSelectedOption={(option) => handleOptionSelection('category', option)}
       />

@@ -8,7 +8,7 @@ from .terrier_utils.indexer import *
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
-from .terrier_utils.get_filter_categories import get_top_10_regions, get_top_10_categories
+from .terrier_utils.get_filters import get_top_5_regions, get_top_categories
 
 br = generate_factory()
 
@@ -45,11 +45,11 @@ def get_data(request):
 
 
 def get_regions(request):
-    regions = get_top_10_regions()
+    regions = get_top_5_regions()
     return JsonResponse({'regions': regions})
 
 def get_categories(request):
-    categories = get_top_10_categories()
+    categories = get_top_categories()
     return JsonResponse({'categories': categories})
 
 

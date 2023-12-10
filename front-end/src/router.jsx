@@ -60,4 +60,24 @@ export async function fetchRegionOptions(setRegionOptions) {
     } catch (error) {
       console.error('Error fetching region options:', error);
     }
+}
+
+export async function fetchCategoryOptions(setRegionOptions) {
+    try {
+      const response = await fetch('http://localhost:8000/api/get_categories/', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        credentials: 'include',
+      });
+      if (response.ok) {
+        const jsonData = await response.json();
+        setRegionOptions(jsonData.categories);
+      } else {
+        console.error('Failed to fetch region options');
+      }
+    } catch (error) {
+      console.error('Error fetching region options:', error);
+    }
   }  
