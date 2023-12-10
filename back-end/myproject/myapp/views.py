@@ -8,21 +8,9 @@ from .terrier_utils.indexer import *
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
-from .terrier_utils.get_filters import get_top_5_regions, get_top_categories
+from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,apply_category_filter,apply_region_filter
 
 br = generate_factory()
-
-# def get_data(request):
-#     """
-#     Fetches data and returns it as a JSON response.
-
-#     Args:
-#     - request: HttpRequest object
-
-#     Returns:
-#     - JsonResponse: JSON response containing data
-#     """
-
 
 def get_data(request):
     # Path to your JSON file
@@ -93,8 +81,10 @@ def submit_form(request):
                 distance = json_data.get('distance')
                 print("Received query: " + query + " " +
                       category + " " + region + " " + distance)
-                
-                transorm_query(br, query)                
+
+                transorm_query(br, query)
+                if (len(category) > 0):
+                    apply_category_filter(category)
 
                 # Return a success message or any other response if needed
 

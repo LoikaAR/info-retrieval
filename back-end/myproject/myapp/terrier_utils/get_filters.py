@@ -57,3 +57,27 @@ def chosen_categories(queriedCat):
                'Cities & Monuments', 'Museums', 'Villages', 'Parks']
 
     return res
+
+def apply_category_filter(category):
+    res = []
+    with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    filter = chosen_categories(category)
+    for obj in data:
+        if obj["category"] in filter:
+            res.append(obj)
+    with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
+        json.dump(res, file, indent=4, default=str)
+
+def apply_region_filter(region):
+    res = []
+    with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    regions = get_top_5_regions()
+    for obj in data:
+        for i in regions:
+            if obj["region"] == i:
+                res.append(obj)
+    with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
+        json.dump(res, file, indent=4, default=str)
+
