@@ -8,7 +8,7 @@ from .terrier_utils.indexer import *
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
-from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,apply_category_filter,apply_region_filter
+from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,apply_category_filter
 
 br = generate_factory()
 
@@ -83,8 +83,11 @@ def submit_form(request):
                       category + " " + region + " " + distance)
 
                 transorm_query(br, query)
-                if (len(category) > 0):
-                    apply_category_filter(category)
+                # if (len(category) > 0):
+                #     apply_category_filter(category)
+                # if (len(region) > 0):
+                #     apply_region_filter(region)
+                apply_category_filter(category,region)
 
                 # Return a success message or any other response if needed
 

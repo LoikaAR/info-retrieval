@@ -58,26 +58,43 @@ def chosen_categories(queriedCat):
 
     return res
 
-def apply_category_filter(category):
+# def apply_category_filter(category, region):
+#     res = []
+#     with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
+#         data = json.load(file)
+#     filter = chosen_categories(category)
+#     for obj in data:
+#         if obj["category"] in filter:
+#             res.append(obj)
+#     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
+#         json.dump(res, file, indent=4, default=str)
+
+
+# def apply_region_filter(region):
+#     res = []
+#     with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
+#         data = json.load(file)
+#     for obj in data:
+#         if obj["region"] == region:
+#             res.append(obj)
+#     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
+#         json.dump(res, file, indent=4, default=str)
+
+def apply_category_filter(category, region):
     res = []
     with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    filter = chosen_categories(category)
-    for obj in data:
-        if obj["category"] in filter:
+        df = json.load(file)
+    chosen_cat = chosen_categories(category)
+
+    for obj in df:
+        is_category = False
+        is_region = False
+        if obj["category"] in chosen_cat or len(category) == 0:
+            is_category = True
+        if len(region) == 0 or obj["region"] == region:
+            is_region = True
+        if is_region and is_category:
             res.append(obj)
+
     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(res, file, indent=4, default=str)
-
-def apply_region_filter(region):
-    res = []
-    with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    regions = get_top_5_regions()
-    for obj in data:
-        for i in regions:
-            if obj["region"] == i:
-                res.append(obj)
-    with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
-        json.dump(res, file, indent=4, default=str)
-
