@@ -14,10 +14,17 @@ class OutdoorSpider(scrapy.Spider):
             
             name = str(name_full).strip()
             region = str(region_full).strip()
-            duration = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr/td[@class='OfferTeaser--meta--data--value']/text()").get()
-            distance = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr[2]/td[@class='OfferTeaser--meta--data--value']/text()").get()
-            distance = distance if distance is not None else 'n/a h'
+            # duration = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr/td[@class='OfferTeaser--meta--data--value']/text()").get()
             
+            # distance = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr[2]/td[@class='OfferTeaser--meta--data--value']/text()").get()
+            # distance = distance if distance is not None else 'n/a km'
+            
+            # # sometimes duration is missing and gets value of distance 
+            # if ("km" in duration):
+            #     hold = duration
+            #     duration = 'varies'
+            #     distance = hold
+
             link = element.xpath(".//a[@class='OfferTeaser--link']/@href").get()
 
             yield scrapy.Request (
@@ -27,9 +34,6 @@ class OutdoorSpider(scrapy.Spider):
                             'name': name, 
                             'region': region, 
                             'category': 'Hike', 
-                            'distance': distance, 
-                            'duration': duration, 
-                            'ascent': 'n/a m', 
                             'link': link
                            }
             )
@@ -42,11 +46,38 @@ class OutdoorSpider(scrapy.Spider):
             yield response.follow(next_page, callback=self.parse)
 
 
-    def parse_inner(self, response, name, region, category, distance, duration, ascent, link):
+    def parse_inner(self, response, name, region, category, link):
         desc_intro = response.xpath("//div[@class='LeadText--text']/p/text()").get()
         desc_main =  response.xpath("//div[@class='ArticleSubSection--content']/div[@class='richtext']/p/text()").getall()
         
         description = [desc_intro] + desc_main
+
+        distance = response.xpath("//div[@class='Summary']"\
+                                  "/div[@class='Summary--item']"\
+                                  "/div[@class='SidebarWidget condensed']"\
+                                  "/div[@class='SidebarWidget--body']/span[contains(text(), ' km')]/text()").get() \
+                                  .strip(' ').replace('\n', '').replace('\r', '').lstrip()
+
+        ascent = response.xpath("//div[@class='Summary']"\
+                                  "/div[@class='Summary--item']"\
+                                  "/div[@class='SidebarWidget condensed']"\
+                                  "/div[@class='SidebarWidget--body']/span[contains(text(), ' m\r')]/text()").get() \
+                                  .strip(' ').replace('\n', '').replace('\r', '').lstrip()
+
+        if response.xpath("//div[@class='Summary']"\
+                                  "/div[@class='Summary--item']"\
+                                  "/div[@class='SidebarWidget condensed']"\
+                                  "/div[@class='SidebarWidget--body']/span[contains(text(), ' h')]/text()") != []:
+        
+            duration = response.xpath("//div[@class='Summary']"\
+                                  "/div[@class='Summary--item']"\
+                                  "/div[@class='SidebarWidget condensed']"\
+                                  "/div[@class='SidebarWidget--body']/span[contains(text(), ' h')]/text()")\
+                                    .get().strip(' ').replace('\n', '').replace('\r', '').lstrip()
+        else: duration = 'varies'
+
+        # print('duration:', duration)
+
         yield {
                 'name': name, 
                 'region': region, 
