@@ -78,16 +78,18 @@ def submit_form(request):
                 query = json_data.get('query')
                 category = json_data.get('category')
                 region = json_data.get('region')
-                distance = json_data.get('distance')
+                distance = json_data.get('distance', {})
+                min_distance = distance.get('min', '')
+                max_distance = distance.get('max', '')
                 print("Received query: " + query + " " +
-                      category + " " + region + " " + distance)
+                      category + " " + region + " " + min_distance + " " + max_distance)
 
                 transorm_query(br, query)
                 # if (len(category) > 0):
                 #     apply_category_filter(category)
                 # if (len(region) > 0):
                 #     apply_region_filter(region)
-                apply_category_filter(category,region)
+                apply_category_filter(category,region, min_distance, max_distance)
 
                 # Return a success message or any other response if needed
 

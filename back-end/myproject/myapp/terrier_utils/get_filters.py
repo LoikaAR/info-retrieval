@@ -81,7 +81,7 @@ def chosen_categories(queriedCat):
 #     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
 #         json.dump(res, file, indent=4, default=str)
 
-def apply_category_filter(category, region):
+def apply_category_filter(category, region, min_dist, max_dist):
     res = []
     with open('./myapp/terrier_utils/ordered_json_file.json', 'r', encoding='utf-8') as file:
         df = json.load(file)
@@ -90,10 +90,14 @@ def apply_category_filter(category, region):
     for obj in df:
         is_category = False
         is_region = False
+        is_distance = False
         if obj["category"] in chosen_cat or len(category) == 0:
             is_category = True
         if len(region) == 0 or obj["region"] == region:
             is_region = True
+        # if len(min_dist) == 0 and len(max_dist) == 0:
+        #     is_distance = True
+        # if len(min_dist) == 0 and
         if is_region and is_category:
             res.append(obj)
 
