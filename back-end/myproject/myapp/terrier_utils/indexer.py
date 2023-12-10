@@ -5,7 +5,7 @@ import pandas as pd
 from .reorder_docs import *
 
 def generate_factory():
-    print('GENERATING INDEX FACTORY')
+    print('INDEXING...')
     # fix the ssl issue
     ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -19,6 +19,7 @@ def generate_factory():
     pd.set_option('display.max_rows', docs_df.shape[0]+1)
     pd.set_option('display.max_columns', 10)
 
+    # process descriptions
     docno = ['d' + str(i) for i in range(docs_df.shape[0])]
     docs_df['docno'] = docno
     text = []
@@ -27,11 +28,12 @@ def generate_factory():
         text.append(docs_df.loc[i, 'name'] + ' ' + docs_df.loc[i, 'description'])
     docs_df['text'] = text
 
-    out = docs_df.to_json(orient='records', lines=True)
+    # out = docs_df.to_json(orient='records', lines=True)
+    
     # res = loads(out)
     jlist = docs_df.to_dict(orient='records')
 
-    with open('./parsed.json', 'w') as f:
+    with open('./myapp/terrier_utils/parsed.json', 'w') as f:
         json.dump(jlist, f, indent=4)
 
     # initialize terrier
@@ -44,15 +46,9 @@ def generate_factory():
     index_ref.toString()
 
     index = pt.IndexFactory.of(index_ref)
-    # print(index.getCollectionStatistics().toString())
-
-    br = pt.BatchRetrieve(index, wmodel="Tf") # alternative models: "TF_IDF", "BM25"
-    # print(br.search("hike"))
+    br = pt.BatchRetrieve(index, wmodel="BM25") # alternative models: "TF_IDF", "BM25"
 
     return br
-
-    # queries = pd.DataFrame([["q1", "mountain bike"], ["q2", "the nature hike"], ["q3", "cycling"]], columns=["qid", "query"])
-    # print(br.transform(queries))
 
 def transorm_query(br, query):
     queries = pd.DataFrame([["q1", query]], columns=["qid", "query"])
@@ -63,15 +59,7 @@ def transorm_query(br, query):
     # parsed = json.loads(jsoned)
     # json.dumps(parsed, indent=4)  
 
-    with open('../retrieved.json', 'w') as file:
+    with open('./myapp/terrier_utils/retrieved.json', 'w') as file:
         json.dump(jsoned, file, indent=4)
 
     parse_order()
-
-
-def main():
-    br = generate_factory()
-    transorm_query(br, "the lake hike")
-
-
-main()

@@ -1,7 +1,8 @@
 import json
 from collections import Counter
 
-with open('./parsed.json', 'r', encoding='utf-8') as file:
+# path will be weird
+with open('./myapp/terrier_utils/parsed.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 def get_all_categories():
@@ -82,7 +83,7 @@ def chosen_categories(queriedCat):
 
 def apply_category_filter(category, region):
     res = []
-    with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
+    with open('./myapp/terrier_utils/ordered_json_file.json', 'r', encoding='utf-8') as file:
         df = json.load(file)
     chosen_cat = chosen_categories(category)
 
@@ -96,5 +97,5 @@ def apply_category_filter(category, region):
         if is_region and is_category:
             res.append(obj)
 
-    with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
+    with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(res, file, indent=4, default=str)

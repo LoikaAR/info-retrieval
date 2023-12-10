@@ -14,17 +14,7 @@ class OutdoorSpider(scrapy.Spider):
             
             name = str(name_full).strip()
             region = str(region_full).strip()
-            # duration = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr/td[@class='OfferTeaser--meta--data--value']/text()").get()
-            
-            # distance = element.xpath(".//div[@class='OfferTeaser--content']/div[@class='OfferTeaser--meta']/table[@class='OfferTeaser--meta--data']/tr[2]/td[@class='OfferTeaser--meta--data--value']/text()").get()
-            # distance = distance if distance is not None else 'n/a km'
-            
-            # # sometimes duration is missing and gets value of distance 
-            # if ("km" in duration):
-            #     hold = duration
-            #     duration = 'varies'
-            #     distance = hold
-
+ 
             link = element.xpath(".//a[@class='OfferTeaser--link']/@href").get()
 
             yield scrapy.Request (

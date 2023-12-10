@@ -30,9 +30,9 @@ class OutdoorSpider(scrapy.Spider):
                             'name': name, 
                             'region': 'Ticino', 
                             'category': category, 
-                            'distance': 'n/a km', 
-                            'duration': 'n/a h', 
-                            'ascent': 'n/a m', 
+                            'distance': 'varies', 
+                            'duration': 'varies', 
+                            'ascent': 'varies', 
                             'link': link
                         }
             )

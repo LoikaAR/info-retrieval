@@ -1,0 +1,3674 @@
+[
+    {
+        "qid": "q1",
+        "docid": 358,
+        "docno": "d358",
+        "rank": 0,
+        "score": 0.49961951790988185,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 696,
+        "docno": "d696",
+        "rank": 1,
+        "score": 0.48898151656447686,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 342,
+        "docno": "d342",
+        "rank": 2,
+        "score": 0.47578396332849626,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 718,
+        "docno": "d718",
+        "rank": 3,
+        "score": 0.4733814310581772,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 195,
+        "docno": "d195",
+        "rank": 4,
+        "score": 0.47175661711032985,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 418,
+        "docno": "d418",
+        "rank": 5,
+        "score": 0.47096660259851286,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 119,
+        "docno": "d119",
+        "rank": 6,
+        "score": 0.4687025525358489,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 204,
+        "docno": "d204",
+        "rank": 7,
+        "score": 0.46637082979047395,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 395,
+        "docno": "d395",
+        "rank": 8,
+        "score": 0.46637082979047395,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 372,
+        "docno": "d372",
+        "rank": 9,
+        "score": 0.46177629838713996,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 347,
+        "docno": "d347",
+        "rank": 10,
+        "score": 0.46126938796380595,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 368,
+        "docno": "d368",
+        "rank": 11,
+        "score": 0.4606417757234906,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 200,
+        "docno": "d200",
+        "rank": 12,
+        "score": 0.45977309606988065,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 123,
+        "docno": "d123",
+        "rank": 13,
+        "score": 0.4589504059880693,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 171,
+        "docno": "d171",
+        "rank": 14,
+        "score": 0.4589504059880693,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 157,
+        "docno": "d157",
+        "rank": 15,
+        "score": 0.4575574675503174,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 416,
+        "docno": "d416",
+        "rank": 16,
+        "score": 0.45727141144837,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 607,
+        "docno": "d607",
+        "rank": 17,
+        "score": 0.45530702007699136,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 677,
+        "docno": "d677",
+        "rank": 18,
+        "score": 0.4539500086307968,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 47,
+        "docno": "d47",
+        "rank": 19,
+        "score": 0.4520139900260358,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 465,
+        "docno": "d465",
+        "rank": 20,
+        "score": 0.4509268732170775,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 344,
+        "docno": "d344",
+        "rank": 21,
+        "score": 0.44976168497174396,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 232,
+        "docno": "d232",
+        "rank": 22,
+        "score": 0.4490573984507439,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 355,
+        "docno": "d355",
+        "rank": 23,
+        "score": 0.4490573984507439,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 82,
+        "docno": "d82",
+        "rank": 24,
+        "score": 0.4489002143506517,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 958,
+        "docno": "d958",
+        "rank": 25,
+        "score": 0.44769667289699655,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 558,
+        "docno": "d558",
+        "rank": 26,
+        "score": 0.44761417839930256,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 115,
+        "docno": "d115",
+        "rank": 27,
+        "score": 0.4471871356586572,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 675,
+        "docno": "d675",
+        "rank": 28,
+        "score": 0.4463845811988818,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 648,
+        "docno": "d648",
+        "rank": 29,
+        "score": 0.4446418933241546,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 681,
+        "docno": "d681",
+        "rank": 30,
+        "score": 0.44217362977906116,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 88,
+        "docno": "d88",
+        "rank": 31,
+        "score": 0.4411788071637351,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 377,
+        "docno": "d377",
+        "rank": 32,
+        "score": 0.44046360300015586,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 215,
+        "docno": "d215",
+        "rank": 33,
+        "score": 0.4395818931980197,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 235,
+        "docno": "d235",
+        "rank": 34,
+        "score": 0.43812019516003115,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 393,
+        "docno": "d393",
+        "rank": 35,
+        "score": 0.43623841289140625,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 895,
+        "docno": "d895",
+        "rank": 36,
+        "score": 0.432215850382591,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 202,
+        "docno": "d202",
+        "rank": 37,
+        "score": 0.4320624738843429,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 64,
+        "docno": "d64",
+        "rank": 38,
+        "score": 0.43023226054934155,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 257,
+        "docno": "d257",
+        "rank": 39,
+        "score": 0.42995878790621606,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 77,
+        "docno": "d77",
+        "rank": 40,
+        "score": 0.4294235953517373,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 692,
+        "docno": "d692",
+        "rank": 41,
+        "score": 0.4294235953517373,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 710,
+        "docno": "d710",
+        "rank": 42,
+        "score": 0.4274654939481345,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 420,
+        "docno": "d420",
+        "rank": 43,
+        "score": 0.42729078010672006,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 538,
+        "docno": "d538",
+        "rank": 44,
+        "score": 0.42706596715614464,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 699,
+        "docno": "d699",
+        "rank": 45,
+        "score": 0.4255251687326992,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 712,
+        "docno": "d712",
+        "rank": 46,
+        "score": 0.42488230214960687,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 421,
+        "docno": "d421",
+        "rank": 47,
+        "score": 0.4216968873143824,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 565,
+        "docno": "d565",
+        "rank": 48,
+        "score": 0.4210655273492184,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 906,
+        "docno": "d906",
+        "rank": 49,
+        "score": 0.42058128680754153,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 433,
+        "docno": "d433",
+        "rank": 50,
+        "score": 0.41980846207808903,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 378,
+        "docno": "d378",
+        "rank": 51,
+        "score": 0.41918273991564764,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 871,
+        "docno": "d871",
+        "rank": 52,
+        "score": 0.4187028177709493,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 693,
+        "docno": "d693",
+        "rank": 53,
+        "score": 0.41616471768320235,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 635,
+        "docno": "d635",
+        "rank": 54,
+        "score": 0.4160819011941138,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 401,
+        "docno": "d401",
+        "rank": 55,
+        "score": 0.4148543730720558,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 383,
+        "docno": "d383",
+        "rank": 56,
+        "score": 0.41432540724378114,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 523,
+        "docno": "d523",
+        "rank": 57,
+        "score": 0.41432540724378114,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 859,
+        "docno": "d859",
+        "rank": 58,
+        "score": 0.4140792463745948,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 332,
+        "docno": "d332",
+        "rank": 59,
+        "score": 0.41341183543868465,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 413,
+        "docno": "d413",
+        "rank": 60,
+        "score": 0.4130266015428322,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 52,
+        "docno": "d52",
+        "rank": 61,
+        "score": 0.41295655866572933,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 289,
+        "docno": "d289",
+        "rank": 62,
+        "score": 0.4122582836037893,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 301,
+        "docno": "d301",
+        "rank": 63,
+        "score": 0.41045326651100816,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 698,
+        "docno": "d698",
+        "rank": 64,
+        "score": 0.41045326651100816,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 7,
+        "docno": "d7",
+        "rank": 65,
+        "score": 0.4095566722843578,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 474,
+        "docno": "d474",
+        "rank": 66,
+        "score": 0.40941895338915474,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 460,
+        "docno": "d460",
+        "rank": 67,
+        "score": 0.4089037491651372,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 717,
+        "docno": "d717",
+        "rank": 68,
+        "score": 0.4088237970436657,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 695,
+        "docno": "d695",
+        "rank": 69,
+        "score": 0.40823036849762134,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 398,
+        "docno": "d398",
+        "rank": 70,
+        "score": 0.4068902388402372,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 231,
+        "docno": "d231",
+        "rank": 71,
+        "score": 0.40646037474271474,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 641,
+        "docno": "d641",
+        "rank": 72,
+        "score": 0.4058061446278511,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 419,
+        "docno": "d419",
+        "rank": 73,
+        "score": 0.4042583006352874,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 574,
+        "docno": "d574",
+        "rank": 74,
+        "score": 0.40296603711293794,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 22,
+        "docno": "d22",
+        "rank": 75,
+        "score": 0.4023894804173689,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 593,
+        "docno": "d593",
+        "rank": 76,
+        "score": 0.4023894804173689,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 108,
+        "docno": "d108",
+        "rank": 77,
+        "score": 0.40181457121888337,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 410,
+        "docno": "d410",
+        "rank": 78,
+        "score": 0.40181457121888337,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 324,
+        "docno": "d324",
+        "rank": 79,
+        "score": 0.4006037523286479,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 313,
+        "docno": "d313",
+        "rank": 80,
+        "score": 0.4001762342089059,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 434,
+        "docno": "d434",
+        "rank": 81,
+        "score": 0.3999465943440364,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 376,
+        "docno": "d376",
+        "rank": 82,
+        "score": 0.3980522581853507,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 303,
+        "docno": "d303",
+        "rank": 83,
+        "score": 0.3972737697189722,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 690,
+        "docno": "d690",
+        "rank": 84,
+        "score": 0.3963047345778658,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 514,
+        "docno": "d514",
+        "rank": 85,
+        "score": 0.39611212183429856,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 678,
+        "docno": "d678",
+        "rank": 86,
+        "score": 0.39611212183429856,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 456,
+        "docno": "d456",
+        "rank": 87,
+        "score": 0.3957258923400646,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 415,
+        "docno": "d415",
+        "rank": 88,
+        "score": 0.39489241944659237,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 448,
+        "docno": "d448",
+        "rank": 89,
+        "score": 0.39489241944659237,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 564,
+        "docno": "d564",
+        "rank": 90,
+        "score": 0.39489241944659237,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 74,
+        "docno": "d74",
+        "rank": 91,
+        "score": 0.39444543777386487,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 373,
+        "docno": "d373",
+        "rank": 92,
+        "score": 0.3933839318034727,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 555,
+        "docno": "d555",
+        "rank": 93,
+        "score": 0.3933839318034727,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 359,
+        "docno": "d359",
+        "rank": 94,
+        "score": 0.3927927204492962,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 626,
+        "docno": "d626",
+        "rank": 95,
+        "score": 0.39228650153625516,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 484,
+        "docno": "d484",
+        "rank": 96,
+        "score": 0.39159334356158787,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 674,
+        "docno": "d674",
+        "rank": 97,
+        "score": 0.3911537950322118,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 290,
+        "docno": "d290",
+        "rank": 98,
+        "score": 0.39010990820746483,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 86,
+        "docno": "d86",
+        "rank": 99,
+        "score": 0.38996439089668145,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 183,
+        "docno": "d183",
+        "rank": 100,
+        "score": 0.3895695286418787,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 351,
+        "docno": "d351",
+        "rank": 101,
+        "score": 0.3883489343473818,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 312,
+        "docno": "d312",
+        "rank": 102,
+        "score": 0.387916635075642,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 360,
+        "docno": "d360",
+        "rank": 103,
+        "score": 0.387916635075642,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 487,
+        "docno": "d487",
+        "rank": 104,
+        "score": 0.387916635075642,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 506,
+        "docno": "d506",
+        "rank": 105,
+        "score": 0.387916635075642,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 704,
+        "docno": "d704",
+        "rank": 106,
+        "score": 0.387916635075642,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 104,
+        "docno": "d104",
+        "rank": 107,
+        "score": 0.38754621481005225,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 73,
+        "docno": "d73",
+        "rank": 108,
+        "score": 0.38742289854396306,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 361,
+        "docno": "d361",
+        "rank": 109,
+        "score": 0.3867468068796459,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 428,
+        "docno": "d428",
+        "rank": 110,
+        "score": 0.3867468068796459,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 135,
+        "docno": "d135",
+        "rank": 111,
+        "score": 0.3863180651691909,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 317,
+        "docno": "d317",
+        "rank": 112,
+        "score": 0.3863180651691909,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 153,
+        "docno": "d153",
+        "rank": 113,
+        "score": 0.3859506901053737,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 306,
+        "docno": "d306",
+        "rank": 114,
+        "score": 0.3859506901053737,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 190,
+        "docno": "d190",
+        "rank": 115,
+        "score": 0.3851578442044917,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 298,
+        "docno": "d298",
+        "rank": 116,
+        "score": 0.3851578442044917,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 409,
+        "docno": "d409",
+        "rank": 117,
+        "score": 0.3851578442044917,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 715,
+        "docno": "d715",
+        "rank": 118,
+        "score": 0.3851578442044917,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 494,
+        "docno": "d494",
+        "rank": 119,
+        "score": 0.38473261632047073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 569,
+        "docno": "d569",
+        "rank": 120,
+        "score": 0.38473261632047073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 606,
+        "docno": "d606",
+        "rank": 121,
+        "score": 0.38473261632047073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 628,
+        "docno": "d628",
+        "rank": 122,
+        "score": 0.38473261632047073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 454,
+        "docno": "d454",
+        "rank": 123,
+        "score": 0.3843682490605791,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 622,
+        "docno": "d622",
+        "rank": 124,
+        "score": 0.3837226768201887,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 272,
+        "docno": "d272",
+        "rank": 125,
+        "score": 0.3831998356997152,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 330,
+        "docno": "d330",
+        "rank": 126,
+        "score": 0.3831998356997152,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 336,
+        "docno": "d336",
+        "rank": 127,
+        "score": 0.3831601276433451,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 14,
+        "docno": "d14",
+        "rank": 128,
+        "score": 0.3827987313994076,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 154,
+        "docno": "d154",
+        "rank": 129,
+        "score": 0.3826784174342887,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 466,
+        "docno": "d466",
+        "rank": 130,
+        "score": 0.3826784174342887,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 573,
+        "docno": "d573",
+        "rank": 131,
+        "score": 0.3826784174342887,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 661,
+        "docno": "d661",
+        "rank": 132,
+        "score": 0.3821584162235847,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 8,
+        "docno": "d8",
+        "rank": 133,
+        "score": 0.382018769465714,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 307,
+        "docno": "d307",
+        "rank": 134,
+        "score": 0.382018769465714,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 719,
+        "docno": "d719",
+        "rank": 135,
+        "score": 0.382018769465714,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 667,
+        "docno": "d667",
+        "rank": 136,
+        "score": 0.3816398262987628,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 689,
+        "docno": "d689",
+        "rank": 137,
+        "score": 0.3816398262987628,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 144,
+        "docno": "d144",
+        "rank": 138,
+        "score": 0.3812419794528209,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 461,
+        "docno": "d461",
+        "rank": 139,
+        "score": 0.3812419794528209,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 503,
+        "docno": "d503",
+        "rank": 140,
+        "score": 0.38112264192225337,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 16,
+        "docno": "d16",
+        "rank": 141,
+        "score": 0.3804683420508147,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 118,
+        "docno": "d118",
+        "rank": 142,
+        "score": 0.3800534003042535,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 181,
+        "docno": "d181",
+        "rank": 143,
+        "score": 0.3800534003042535,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 676,
+        "docno": "d676",
+        "rank": 144,
+        "score": 0.3796978381062033,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 50,
+        "docno": "d50",
+        "rank": 145,
+        "score": 0.3790678462306313,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 182,
+        "docno": "d182",
+        "rank": 146,
+        "score": 0.3790678462306313,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 95,
+        "docno": "d95",
+        "rank": 147,
+        "score": 0.37893044862033554,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 645,
+        "docno": "d645",
+        "rank": 148,
+        "score": 0.37893044862033554,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 701,
+        "docno": "d701",
+        "rank": 149,
+        "score": 0.37893044862033554,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 271,
+        "docno": "d271",
+        "rank": 150,
+        "score": 0.378557604611907,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 603,
+        "docno": "d603",
+        "rank": 151,
+        "score": 0.3785188527569209,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 856,
+        "docno": "d856",
+        "rank": 152,
+        "score": 0.3785188527569209,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 636,
+        "docno": "d636",
+        "rank": 153,
+        "score": 0.37816615474783954,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 441,
+        "docno": "d441",
+        "rank": 154,
+        "score": 0.3780487347610368,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 809,
+        "docno": "d809",
+        "rank": 155,
+        "score": 0.3779900521074297,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 980,
+        "docno": "d980",
+        "rank": 156,
+        "score": 0.3779900521074297,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 458,
+        "docno": "d458",
+        "rank": 157,
+        "score": 0.3770350882944708,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 156,
+        "docno": "d156",
+        "rank": 158,
+        "score": 0.37439047053465013,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 666,
+        "docno": "d666",
+        "rank": 159,
+        "score": 0.374026502828102,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 447,
+        "docno": "d447",
+        "rank": 160,
+        "score": 0.3736443629811617,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 721,
+        "docno": "d721",
+        "rank": 161,
+        "score": 0.3736443629811617,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 55,
+        "docno": "d55",
+        "rank": 162,
+        "score": 0.37303428260250626,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 173,
+        "docno": "d173",
+        "rank": 163,
+        "score": 0.3729012232879881,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 443,
+        "docno": "d443",
+        "rank": 164,
+        "score": 0.3729012232879881,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 136,
+        "docno": "d136",
+        "rank": 165,
+        "score": 0.3721610337819849,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 13,
+        "docno": "d13",
+        "rank": 166,
+        "score": 0.37106555181605194,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 28,
+        "docno": "d28",
+        "rank": 167,
+        "score": 0.3710283185869496,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 881,
+        "docno": "d881",
+        "rank": 168,
+        "score": 0.3710283185869496,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 923,
+        "docno": "d923",
+        "rank": 169,
+        "score": 0.3710283185869496,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 90,
+        "docno": "d90",
+        "rank": 170,
+        "score": 0.370576611778652,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 546,
+        "docno": "d546",
+        "rank": 171,
+        "score": 0.370576611778652,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 571,
+        "docno": "d571",
+        "rank": 172,
+        "score": 0.370576611778652,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 612,
+        "docno": "d612",
+        "rank": 173,
+        "score": 0.370576611778652,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 110,
+        "docno": "d110",
+        "rank": 174,
+        "score": 0.37008895856386037,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 318,
+        "docno": "d318",
+        "rank": 175,
+        "score": 0.36960258709824445,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 500,
+        "docno": "d500",
+        "rank": 176,
+        "score": 0.3692294290393379,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 670,
+        "docno": "d670",
+        "rank": 177,
+        "score": 0.3692294290393379,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 201,
+        "docno": "d201",
+        "rank": 178,
+        "score": 0.36850373022541755,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 501,
+        "docno": "d501",
+        "rank": 179,
+        "score": 0.36850373022541755,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 61,
+        "docno": "d61",
+        "rank": 180,
+        "score": 0.36778087845282115,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 639,
+        "docno": "d639",
+        "rank": 181,
+        "score": 0.36778087845282115,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 75,
+        "docno": "d75",
+        "rank": 182,
+        "score": 0.3670608570001997,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 158,
+        "docno": "d158",
+        "rank": 183,
+        "score": 0.3670608570001997,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 18,
+        "docno": "d18",
+        "rank": 184,
+        "score": 0.3666746297442049,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 870,
+        "docno": "d870",
+        "rank": 185,
+        "score": 0.3666746297442049,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 579,
+        "docno": "d579",
+        "rank": 186,
+        "score": 0.3657571582412769,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 34,
+        "docno": "d34",
+        "rank": 187,
+        "score": 0.3649176093013933,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 482,
+        "docno": "d482",
+        "rank": 188,
+        "score": 0.36420874450992935,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 865,
+        "docno": "d865",
+        "rank": 189,
+        "score": 0.3627992449158544,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 40,
+        "docno": "d40",
+        "rank": 190,
+        "score": 0.362457455113582,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 249,
+        "docno": "d249",
+        "rank": 191,
+        "score": 0.362457455113582,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 910,
+        "docno": "d910",
+        "rank": 192,
+        "score": 0.36242192926086103,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 533,
+        "docno": "d533",
+        "rank": 193,
+        "score": 0.3620985783244329,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 233,
+        "docno": "d233",
+        "rank": 194,
+        "score": 0.36102619930688395,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 947,
+        "docno": "d947",
+        "rank": 195,
+        "score": 0.36102619930688395,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 426,
+        "docno": "d426",
+        "rank": 196,
+        "score": 0.36070533299814767,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 508,
+        "docno": "d508",
+        "rank": 197,
+        "score": 0.36070533299814767,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 577,
+        "docno": "d577",
+        "rank": 198,
+        "score": 0.35967616111552453,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 132,
+        "docno": "d132",
+        "rank": 199,
+        "score": 0.35932276814615616,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 269,
+        "docno": "d269",
+        "rank": 200,
+        "score": 0.358758524285537,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 281,
+        "docno": "d281",
+        "rank": 201,
+        "score": 0.35591228477986797,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 522,
+        "docno": "d522",
+        "rank": 202,
+        "score": 0.3552379422663532,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 649,
+        "docno": "d649",
+        "rank": 203,
+        "score": 0.3545661502569276,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 477,
+        "docno": "d477",
+        "rank": 204,
+        "score": 0.35389689430909554,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 67,
+        "docno": "d67",
+        "rank": 205,
+        "score": 0.3525659333713931,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 297,
+        "docno": "d297",
+        "rank": 206,
+        "score": 0.3519042000366366,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 596,
+        "docno": "d596",
+        "rank": 207,
+        "score": 0.3507057671964016,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 919,
+        "docno": "d919",
+        "rank": 208,
+        "score": 0.350235801494094,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 264,
+        "docno": "d264",
+        "rank": 209,
+        "score": 0.3493986565550997,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 556,
+        "docno": "d556",
+        "rank": 210,
+        "score": 0.34928192182963813,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 220,
+        "docno": "d220",
+        "rank": 211,
+        "score": 0.3489321852000331,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 405,
+        "docno": "d405",
+        "rank": 212,
+        "score": 0.348532649060043,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 222,
+        "docno": "d222",
+        "rank": 213,
+        "score": 0.34798538361311826,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 897,
+        "docno": "d897",
+        "rank": 214,
+        "score": 0.3476382373263892,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 863,
+        "docno": "d863",
+        "rank": 215,
+        "score": 0.346353850710125,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 502,
+        "docno": "d502",
+        "rank": 216,
+        "score": 0.3451111267753087,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 476,
+        "docno": "d476",
+        "rank": 217,
+        "score": 0.3447857625497377,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 51,
+        "docno": "d51",
+        "rank": 218,
+        "score": 0.3441528860697783,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 495,
+        "docno": "d495",
+        "rank": 219,
+        "score": 0.34381334045801026,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 510,
+        "docno": "d510",
+        "rank": 220,
+        "score": 0.34352232870403915,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 170,
+        "docno": "d170",
+        "rank": 221,
+        "score": 0.3422681205123753,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 370,
+        "docno": "d370",
+        "rank": 222,
+        "score": 0.3404038864849355,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 430,
+        "docno": "d430",
+        "rank": 223,
+        "score": 0.3404038864849355,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 961,
+        "docno": "d961",
+        "rank": 224,
+        "score": 0.3400716946315209,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 857,
+        "docno": "d857",
+        "rank": 225,
+        "score": 0.33884251150623795,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 605,
+        "docno": "d605",
+        "rank": 226,
+        "score": 0.3385598503172041,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 659,
+        "docno": "d659",
+        "rank": 227,
+        "score": 0.3379496033760082,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 366,
+        "docno": "d366",
+        "rank": 228,
+        "score": 0.33762218210067235,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 363,
+        "docno": "d363",
+        "rank": 229,
+        "score": 0.33734155239095504,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 618,
+        "docno": "d618",
+        "rank": 230,
+        "score": 0.3361319910467656,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 369,
+        "docno": "d369",
+        "rank": 231,
+        "score": 0.3352077045487583,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 380,
+        "docno": "d380",
+        "rank": 232,
+        "score": 0.3349310726435444,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 396,
+        "docno": "d396",
+        "rank": 233,
+        "score": 0.3349310726435444,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 457,
+        "docno": "d457",
+        "rank": 234,
+        "score": 0.3331456989888804,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 400,
+        "docno": "d400",
+        "rank": 235,
+        "score": 0.3325547967393079,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 604,
+        "docno": "d604",
+        "rank": 236,
+        "score": 0.3325547967393079,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 169,
+        "docno": "d169",
+        "rank": 237,
+        "score": 0.33196598695107904,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 338,
+        "docno": "d338",
+        "rank": 238,
+        "score": 0.33196598695107904,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 463,
+        "docno": "d463",
+        "rank": 239,
+        "score": 0.3313792585293236,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 592,
+        "docno": "d592",
+        "rank": 240,
+        "score": 0.3313792585293236,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 963,
+        "docno": "d963",
+        "rank": 241,
+        "score": 0.330480890180621,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 25,
+        "docno": "d25",
+        "rank": 242,
+        "score": 0.3302120017965586,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 537,
+        "docno": "d537",
+        "rank": 243,
+        "score": 0.3302120017965586,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 852,
+        "docno": "d852",
+        "rank": 244,
+        "score": 0.329319942643112,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 830,
+        "docno": "d830",
+        "rank": 245,
+        "score": 0.3270223466288813,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 833,
+        "docno": "d833",
+        "rank": 246,
+        "score": 0.3270223466288813,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 844,
+        "docno": "d844",
+        "rank": 247,
+        "score": 0.3270223466288813,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 10,
+        "docno": "d10",
+        "rank": 248,
+        "score": 0.3239362847800215,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 665,
+        "docno": "d665",
+        "rank": 249,
+        "score": 0.3239362847800215,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 126,
+        "docno": "d126",
+        "rank": 250,
+        "score": 0.32337757315136223,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 900,
+        "docno": "d900",
+        "rank": 251,
+        "score": 0.32252201009326487,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 350,
+        "docno": "d350",
+        "rank": 252,
+        "score": 0.32226591187139597,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 30,
+        "docno": "d30",
+        "rank": 253,
+        "score": 0.32171294244637305,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 660,
+        "docno": "d660",
+        "rank": 254,
+        "score": 0.32171294244637305,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 103,
+        "docno": "d103",
+        "rank": 255,
+        "score": 0.32116186742841696,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 513,
+        "docno": "d513",
+        "rank": 256,
+        "score": 0.3206126770991568,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 521,
+        "docno": "d521",
+        "rank": 257,
+        "score": 0.3206126770991568,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 629,
+        "docno": "d629",
+        "rank": 258,
+        "score": 0.3206126770991568,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 642,
+        "docno": "d642",
+        "rank": 259,
+        "score": 0.3195199119644786,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 905,
+        "docno": "d905",
+        "rank": 260,
+        "score": 0.31814385541706447,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 357,
+        "docno": "d357",
+        "rank": 261,
+        "score": 0.3178946602540547,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 345,
+        "docno": "d345",
+        "rank": 262,
+        "score": 0.3157532040018888,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 601,
+        "docno": "d601",
+        "rank": 263,
+        "score": 0.31522234037313585,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 146,
+        "docno": "d146",
+        "rank": 264,
+        "score": 0.31311661702427235,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 432,
+        "docno": "d432",
+        "rank": 265,
+        "score": 0.3125945746352729,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 529,
+        "docno": "d529",
+        "rank": 266,
+        "score": 0.31207427009489475,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 723,
+        "docno": "d723",
+        "rank": 267,
+        "score": 0.31207427009489475,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 174,
+        "docno": "d174",
+        "rank": 268,
+        "score": 0.31103883996399073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 496,
+        "docno": "d496",
+        "rank": 269,
+        "score": 0.31103883996399073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 362,
+        "docno": "d362",
+        "rank": 270,
+        "score": 0.30949851390632904,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 130,
+        "docno": "d130",
+        "rank": 271,
+        "score": 0.3087147257749854,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 575,
+        "docno": "d575",
+        "rank": 272,
+        "score": 0.3087147257749854,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 835,
+        "docno": "d835",
+        "rank": 273,
+        "score": 0.3087147257749854,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 483,
+        "docno": "d483",
+        "rank": 274,
+        "score": 0.3084800775340948,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 630,
+        "docno": "d630",
+        "rank": 275,
+        "score": 0.3077014326964868,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 869,
+        "docno": "d869",
+        "rank": 276,
+        "score": 0.3077014326964868,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 19,
+        "docno": "d19",
+        "rank": 277,
+        "score": 0.30696492850682244,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 242,
+        "docno": "d242",
+        "rank": 278,
+        "score": 0.30696492850682244,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 381,
+        "docno": "d381",
+        "rank": 279,
+        "score": 0.30696492850682244,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 634,
+        "docno": "d634",
+        "rank": 280,
+        "score": 0.30696492850682244,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 858,
+        "docno": "d858",
+        "rank": 281,
+        "score": 0.30669476971149245,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 469,
+        "docno": "d469",
+        "rank": 282,
+        "score": 0.30646318093401453,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 683,
+        "docno": "d683",
+        "rank": 283,
+        "score": 0.30569467195999556,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 892,
+        "docno": "d892",
+        "rank": 284,
+        "score": 0.30569467195999556,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 203,
+        "docno": "d203",
+        "rank": 285,
+        "score": 0.304701075425245,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 337,
+        "docno": "d337",
+        "rank": 286,
+        "score": 0.304701075425245,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 623,
+        "docno": "d623",
+        "rank": 287,
+        "score": 0.30447248666268006,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 882,
+        "docno": "d882",
+        "rank": 288,
+        "score": 0.30397884746887965,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 33,
+        "docno": "d33",
+        "rank": 289,
+        "score": 0.30056768886898644,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 563,
+        "docno": "d563",
+        "rank": 290,
+        "score": 0.30056768886898644,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 709,
+        "docno": "d709",
+        "rank": 291,
+        "score": 0.30056768886898644,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 58,
+        "docno": "d58",
+        "rank": 292,
+        "score": 0.2998284277451718,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 580,
+        "docno": "d580",
+        "rank": 293,
+        "score": 0.2998284277451718,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 534,
+        "docno": "d534",
+        "rank": 294,
+        "score": 0.29887253969315825,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 686,
+        "docno": "d686",
+        "rank": 295,
+        "score": 0.2967617793305449,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 427,
+        "docno": "d427",
+        "rank": 296,
+        "score": 0.29604109887765323,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 314,
+        "docno": "d314",
+        "rank": 297,
+        "score": 0.2932628032482222,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 891,
+        "docno": "d891",
+        "rank": 298,
+        "score": 0.2932628032482222,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 832,
+        "docno": "d832",
+        "rank": 299,
+        "score": 0.2923482569373663,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 38,
+        "docno": "d38",
+        "rank": 300,
+        "score": 0.2914393969579425,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 279,
+        "docno": "d279",
+        "rank": 301,
+        "score": 0.2914393969579425,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 102,
+        "docno": "d102",
+        "rank": 302,
+        "score": 0.2905361704408597,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 668,
+        "docno": "d668",
+        "rank": 303,
+        "score": 0.289879458982275,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 69,
+        "docno": "d69",
+        "rank": 304,
+        "score": 0.28963852517040783,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 519,
+        "docno": "d519",
+        "rank": 305,
+        "score": 0.28963852517040783,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 703,
+        "docno": "d703",
+        "rank": 306,
+        "score": 0.28963852517040783,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 223,
+        "docno": "d223",
+        "rank": 307,
+        "score": 0.28785977271327073,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 92,
+        "docno": "d92",
+        "rank": 308,
+        "score": 0.2869785642724307,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 186,
+        "docno": "d186",
+        "rank": 309,
+        "score": 0.28610273455069807,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 253,
+        "docno": "d253",
+        "rank": 310,
+        "score": 0.28610273455069807,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 11,
+        "docno": "d11",
+        "rank": 311,
+        "score": 0.2852322344519794,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 31,
+        "docno": "d31",
+        "rank": 312,
+        "score": 0.2852322344519794,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 888,
+        "docno": "d888",
+        "rank": 313,
+        "score": 0.2852322344519794,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 117,
+        "docno": "d117",
+        "rank": 314,
+        "score": 0.284367015475891,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 122,
+        "docno": "d122",
+        "rank": 315,
+        "score": 0.284367015475891,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 234,
+        "docno": "d234",
+        "rank": 316,
+        "score": 0.284367015475891,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 258,
+        "docno": "d258",
+        "rank": 317,
+        "score": 0.284367015475891,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 792,
+        "docno": "d792",
+        "rank": 318,
+        "score": 0.2837378665448172,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 194,
+        "docno": "d194",
+        "rank": 319,
+        "score": 0.2818025690271796,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 489,
+        "docno": "d489",
+        "rank": 320,
+        "score": 0.2818025690271796,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 247,
+        "docno": "d247",
+        "rank": 321,
+        "score": 0.28034383007633945,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 227,
+        "docno": "d227",
+        "rank": 322,
+        "score": 0.28011848049969756,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 252,
+        "docno": "d252",
+        "rank": 323,
+        "score": 0.28011848049969756,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 196,
+        "docno": "d196",
+        "rank": 324,
+        "score": 0.2784544010561904,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 486,
+        "docno": "d486",
+        "rank": 325,
+        "score": 0.2784544010561904,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 236,
+        "docno": "d236",
+        "rank": 326,
+        "score": 0.2776297536336008,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 240,
+        "docno": "d240",
+        "rank": 327,
+        "score": 0.2776297536336008,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 588,
+        "docno": "d588",
+        "rank": 328,
+        "score": 0.2776297536336008,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 549,
+        "docno": "d549",
+        "rank": 329,
+        "score": 0.2768099762030517,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 87,
+        "docno": "d87",
+        "rank": 330,
+        "score": 0.27621378709896777,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 149,
+        "docno": "d149",
+        "rank": 331,
+        "score": 0.27599502575161844,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 488,
+        "docno": "d488",
+        "rank": 332,
+        "score": 0.27599502575161844,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 557,
+        "docno": "d557",
+        "rank": 333,
+        "score": 0.27599502575161844,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 576,
+        "docno": "d576",
+        "rank": 334,
+        "score": 0.27599502575161844,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 148,
+        "docno": "d148",
+        "rank": 335,
+        "score": 0.27518485977142326,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 682,
+        "docno": "d682",
+        "rank": 336,
+        "score": 0.27437943625224465,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 422,
+        "docno": "d422",
+        "rank": 337,
+        "score": 0.27419406497386534,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 94,
+        "docno": "d94",
+        "rank": 338,
+        "score": 0.273578713674255,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 219,
+        "docno": "d219",
+        "rank": 339,
+        "score": 0.273578713674255,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 221,
+        "docno": "d221",
+        "rank": 340,
+        "score": 0.273578713674255,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 594,
+        "docno": "d594",
+        "rank": 341,
+        "score": 0.2727826510008866,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 97,
+        "docno": "d97",
+        "rank": 342,
+        "score": 0.27199120767182067,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 96,
+        "docno": "d96",
+        "rank": 343,
+        "score": 0.2712043435960985,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 60,
+        "docno": "d60",
+        "rank": 344,
+        "score": 0.27042201914535213,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 127,
+        "docno": "d127",
+        "rank": 345,
+        "score": 0.27042201914535213,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 651,
+        "docno": "d651",
+        "rank": 346,
+        "score": 0.27042201914535213,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 657,
+        "docno": "d657",
+        "rank": 347,
+        "score": 0.27042201914535213,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 273,
+        "docno": "d273",
+        "rank": 348,
+        "score": 0.2673373408460565,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 554,
+        "docno": "d554",
+        "rank": 349,
+        "score": 0.2673373408460565,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 172,
+        "docno": "d172",
+        "rank": 350,
+        "score": 0.2665771358259831,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 437,
+        "docno": "d437",
+        "rank": 351,
+        "score": 0.2665771358259831,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 331,
+        "docno": "d331",
+        "rank": 352,
+        "score": 0.2658212420104056,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 406,
+        "docno": "d406",
+        "rank": 353,
+        "score": 0.26506962282906377,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 548,
+        "docno": "d548",
+        "rank": 354,
+        "score": 0.26357906414449217,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 655,
+        "docno": "d655",
+        "rank": 355,
+        "score": 0.26284005353989004,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 444,
+        "docno": "d444",
+        "rank": 356,
+        "score": 0.26137439502620813,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 390,
+        "docno": "d390",
+        "rank": 357,
+        "score": 0.26064767837147534,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 467,
+        "docno": "d467",
+        "rank": 358,
+        "score": 0.25707388013896254,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 624,
+        "docno": "d624",
+        "rank": 359,
+        "score": 0.2563708486051025,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 694,
+        "docno": "d694",
+        "rank": 360,
+        "score": 0.2556716518082979,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 1,
+        "docno": "d1",
+        "rank": 361,
+        "score": 0.25497625845860344,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 209,
+        "docno": "d209",
+        "rank": 362,
+        "score": 0.25497625845860344,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 15,
+        "docno": "d15",
+        "rank": 363,
+        "score": 0.2542846376055691,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 244,
+        "docno": "d244",
+        "rank": 364,
+        "score": 0.2542846376055691,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 705,
+        "docno": "d705",
+        "rank": 365,
+        "score": 0.2542846376055691,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 471,
+        "docno": "d471",
+        "rank": 366,
+        "score": 0.2535967586336474,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 497,
+        "docno": "d497",
+        "rank": 367,
+        "score": 0.2535967586336474,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 909,
+        "docno": "d909",
+        "rank": 368,
+        "score": 0.252232105518434,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 608,
+        "docno": "d608",
+        "rank": 369,
+        "score": 0.2515552717782668,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 504,
+        "docno": "d504",
+        "rank": 370,
+        "score": 0.2508820607167853,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 42,
+        "docno": "d42",
+        "rank": 371,
+        "score": 0.2502124433266307,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 256,
+        "docno": "d256",
+        "rank": 372,
+        "score": 0.2502124433266307,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 664,
+        "docno": "d664",
+        "rank": 373,
+        "score": 0.24954639090930839,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 584,
+        "docno": "d584",
+        "rank": 374,
+        "score": 0.24888387507108833,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 139,
+        "docno": "d139",
+        "rank": 375,
+        "score": 0.2475693410567104,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 479,
+        "docno": "d479",
+        "rank": 376,
+        "score": 0.2475693410567104,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 499,
+        "docno": "d499",
+        "rank": 377,
+        "score": 0.24691726758091842,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 309,
+        "docno": "d309",
+        "rank": 378,
+        "score": 0.24626862007720557,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 191,
+        "docno": "d191",
+        "rank": 379,
+        "score": 0.2449814955508273,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 65,
+        "docno": "d65",
+        "rank": 380,
+        "score": 0.24307583939441282,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 688,
+        "docno": "d688",
+        "rank": 381,
+        "score": 0.24307583939441282,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 192,
+        "docno": "d192",
+        "rank": 382,
+        "score": 0.24244719193557976,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 412,
+        "docno": "d412",
+        "rank": 383,
+        "score": 0.24182178772952884,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 114,
+        "docno": "d114",
+        "rank": 384,
+        "score": 0.2405806091975339,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 105,
+        "docno": "d105",
+        "rank": 385,
+        "score": 0.23996478557162604,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 167,
+        "docno": "d167",
+        "rank": 386,
+        "score": 0.23959895903090658,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 302,
+        "docno": "d302",
+        "rank": 387,
+        "score": 0.23935210659204473,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 276,
+        "docno": "d276",
+        "rank": 388,
+        "score": 0.23813608671427774,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 63,
+        "docno": "d63",
+        "rank": 389,
+        "score": 0.23693236027176182,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 206,
+        "docno": "d206",
+        "rank": 390,
+        "score": 0.23693236027176182,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 152,
+        "docno": "d152",
+        "rank": 391,
+        "score": 0.23514941606974593,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 43,
+        "docno": "d43",
+        "rank": 392,
+        "score": 0.2345610494677228,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 83,
+        "docno": "d83",
+        "rank": 393,
+        "score": 0.23052350460160778,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 550,
+        "docno": "d550",
+        "rank": 394,
+        "score": 0.22995803142685592,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 208,
+        "docno": "d208",
+        "rank": 395,
+        "score": 0.22939532567021673,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 509,
+        "docno": "d509",
+        "rank": 396,
+        "score": 0.22939532567021673,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 724,
+        "docno": "d724",
+        "rank": 397,
+        "score": 0.22939532567021673,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 177,
+        "docno": "d177",
+        "rank": 398,
+        "score": 0.22827813554479356,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 518,
+        "docno": "d518",
+        "rank": 399,
+        "score": 0.22827813554479356,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 581,
+        "docno": "d581",
+        "rank": 400,
+        "score": 0.22827813554479356,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 316,
+        "docno": "d316",
+        "rank": 401,
+        "score": 0.22772361123386248,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 578,
+        "docno": "d578",
+        "rank": 402,
+        "score": 0.22717177445198958,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 274,
+        "docno": "d274",
+        "rank": 403,
+        "score": 0.2266226057085455,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 295,
+        "docno": "d295",
+        "rank": 404,
+        "score": 0.22499091560915516,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 633,
+        "docno": "d633",
+        "rank": 405,
+        "score": 0.22499091560915516,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 39,
+        "docno": "d39",
+        "rank": 406,
+        "score": 0.2244522278396701,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 163,
+        "docno": "d163",
+        "rank": 407,
+        "score": 0.2244522278396701,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 480,
+        "docno": "d480",
+        "rank": 408,
+        "score": 0.2244522278396701,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 17,
+        "docno": "d17",
+        "rank": 409,
+        "score": 0.22338255398707588,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 72,
+        "docno": "d72",
+        "rank": 410,
+        "score": 0.22338255398707588,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 526,
+        "docno": "d526",
+        "rank": 411,
+        "score": 0.22285153128722807,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 810,
+        "docno": "d810",
+        "rank": 412,
+        "score": 0.22193828172839908,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 80,
+        "docno": "d80",
+        "rank": 413,
+        "score": 0.22179702409808047,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 399,
+        "docno": "d399",
+        "rank": 414,
+        "score": 0.22179702409808047,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 560,
+        "docno": "d560",
+        "rank": 415,
+        "score": 0.22075244951655282,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 147,
+        "docno": "d147",
+        "rank": 416,
+        "score": 0.21920390645257554,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 210,
+        "docno": "d210",
+        "rank": 417,
+        "score": 0.21869254207147804,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 305,
+        "docno": "d305",
+        "rank": 418,
+        "score": 0.21869254207147804,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 754,
+        "docno": "d754",
+        "rank": 419,
+        "score": 0.21717266452481515,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 990,
+        "docno": "d990",
+        "rank": 420,
+        "score": 0.21717266452481515,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 32,
+        "docno": "d32",
+        "rank": 421,
+        "score": 0.216670722448283,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 382,
+        "docno": "d382",
+        "rank": 422,
+        "score": 0.2161710952568182,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 188,
+        "docno": "d188",
+        "rank": 423,
+        "score": 0.2156737669733846,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 284,
+        "docno": "d284",
+        "rank": 424,
+        "score": 0.21517872176763683,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 134,
+        "docno": "d134",
+        "rank": 425,
+        "score": 0.2137071284783096,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 429,
+        "docno": "d429",
+        "rank": 426,
+        "score": 0.2122555267298082,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 315,
+        "docno": "d315",
+        "rank": 427,
+        "score": 0.2117760317932398,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 524,
+        "docno": "d524",
+        "rank": 428,
+        "score": 0.2117760317932398,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 452,
+        "docno": "d452",
+        "rank": 429,
+        "score": 0.21082351189403895,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 193,
+        "docno": "d193",
+        "rank": 430,
+        "score": 0.210350457896248,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 207,
+        "docno": "d207",
+        "rank": 431,
+        "score": 0.2098795220595722,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 141,
+        "docno": "d141",
+        "rank": 432,
+        "score": 0.20894394821717516,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 255,
+        "docno": "d255",
+        "rank": 433,
+        "score": 0.2080166783191501,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 339,
+        "docno": "d339",
+        "rank": 434,
+        "score": 0.2070976022980321,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 68,
+        "docno": "d68",
+        "rank": 435,
+        "score": 0.20664110312595838,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 112,
+        "docno": "d112",
+        "rank": 436,
+        "score": 0.20664110312595838,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 515,
+        "docno": "d515",
+        "rank": 437,
+        "score": 0.20618661202303504,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 243,
+        "docno": "d243",
+        "rank": 438,
+        "score": 0.20045510091134944,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 498,
+        "docno": "d498",
+        "rank": 439,
+        "score": 0.19960149168196883,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 268,
+        "docno": "d268",
+        "rank": 440,
+        "score": 0.19917740750412394,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 321,
+        "docno": "d321",
+        "rank": 441,
+        "score": 0.19875512157021985,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 145,
+        "docno": "d145",
+        "rank": 442,
+        "score": 0.19791589887685335,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 917,
+        "docno": "d917",
+        "rank": 443,
+        "score": 0.19503361726817334,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 341,
+        "docno": "d341",
+        "rank": 444,
+        "score": 0.19302571366704743,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 311,
+        "docno": "d311",
+        "rank": 445,
+        "score": 0.19184069450960028,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 76,
+        "docno": "d76",
+        "rank": 446,
+        "score": 0.18837135877262773,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 217,
+        "docno": "d217",
+        "rank": 447,
+        "score": 0.18649763137534003,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 566,
+        "docno": "d566",
+        "rank": 448,
+        "score": 0.18575853630055947,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 143,
+        "docno": "d143",
+        "rank": 449,
+        "score": 0.18429778227204205,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 516,
+        "docno": "d516",
+        "rank": 450,
+        "score": 0.17936121683372463,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 388,
+        "docno": "d388",
+        "rank": 451,
+        "score": 0.1769907958901832,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 84,
+        "docno": "d84",
+        "rank": 452,
+        "score": 0.17468221223065356,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 820,
+        "docno": "d820",
+        "rank": 453,
+        "score": 0.1525153129478563,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 1003,
+        "docno": "d1003",
+        "rank": 454,
+        "score": 0.1525153129478563,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 816,
+        "docno": "d816",
+        "rank": 455,
+        "score": 0.11752529894388881,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 988,
+        "docno": "d988",
+        "rank": 456,
+        "score": 0.11752529894388881,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 270,
+        "docno": "d270",
+        "rank": 457,
+        "score": 0.10564146858503967,
+        "query": "hike"
+    },
+    {
+        "qid": "q1",
+        "docid": 323,
+        "docno": "d323",
+        "rank": 458,
+        "score": 0.060144935371670386,
+        "query": "hike"
+    }
+]

@@ -14,7 +14,7 @@ br = generate_factory()
 
 def get_data(request):
     # Path to your JSON file
-    json_file_path = './ordered_json_file.json'  # Replace with the actual path
+    json_file_path = './myapp/terrier_utils/ordered_json_file.json'  # Replace with the actual path
 
     # Check if the file exists
     if os.path.exists(json_file_path):
