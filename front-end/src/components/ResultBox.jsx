@@ -1,35 +1,46 @@
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
 
 const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query }) => {
- 
+  const [helpful, setHelpful] = useState(null);
+
+  const handleCheckboxChange = (value) => {
+    if (helpful === value) {
+      // If the clicked checkbox is already selected, deselect it
+      setHelpful(null);
+    } else {
+      setHelpful(value);
+    }
+  };
+
   return (
     <div className="result-box">
-      {console.log("the query iiiis: " + query.query)}
-      {/* {setArr(highlightQuery())} */}
-      <a className="result-link" href={link} target="_blank" rel="noreferrer">
-        <h2 className="result-title">
-          {name}
-        </h2>
-      </a>
-      <div className="result-details">
-        <h3 className="result-stats">
-          Distance: {distance}
-          <br />
-          Duration: {duration}
-          <br />
-          Ascent: {ascent}
-        </h3>
-        <h3 className="result-category">
-          Category: {category}
-          <br />
-          Region: {region}
-        </h3>
-      </div>
-      {/* <p className="result-description">
-        {description}
-      </p> */}
+      {/* ... (existing content) ... */}
       <HighlightedText text={description} query={query}/>
+      
+      {/* "Was This Helpful?" section */}
+      <div className="helpful-section">
+        <h3>Was This Helpful?</h3>
+        <label>
+          <input
+            type="checkbox"
+            value="Yes"
+            checked={helpful === 'Yes'}
+            onChange={() => handleCheckboxChange('Yes')}
+          />
+          Yes
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            value="No"
+            checked={helpful === 'No'}
+            onChange={() => handleCheckboxChange('No')}
+          />
+          No
+        </label>
+      </div>
     </div>
   );
 };
