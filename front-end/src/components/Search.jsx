@@ -9,8 +9,9 @@ function Search({ onPostSuccess }) {
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
     region: '',
-    distance: '',
+    distance: { min: '', max: '' },
   });
+
 
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
@@ -29,7 +30,7 @@ function Search({ onPostSuccess }) {
       setSelectedOptions({
         category: '',
         region: '',
-        distance: '',
+        distance: { min: '', max: '' },
       });
     }
   }, [isVisible]);
