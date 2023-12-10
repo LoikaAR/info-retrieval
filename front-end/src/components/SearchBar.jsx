@@ -12,8 +12,29 @@ const SearchBar = ({ handleFormSubmit }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    handleFormSubmit({ query }); // pass query to the parent component for submission
-    // setQuery(''); // reset query after submission
+    const sanitizedQuery = query.replace(/[^\w\s]/gi, ''); // Remove special characters
+    if (sanitizedQuery.trim() !== query.trim()) {
+      showNotification('Please avoid using special characters.'); // Display browser notification
+      return; // Prevent form submission
+    }
+    handleFormSubmit({ query: sanitizedQuery.trim() }); // Pass sanitized query to the parent component for submission
+    // setQuery(''); // Reset query after submission
+  };
+
+  const showNotification = (message) => {
+    if (Notification.permission === 'granted') {
+      new Notification('Error', {
+        body: message,
+      });
+    } else if (Notification.permission !== 'denied') {
+      Notification.requestPermission().then((permission) => {
+        if (permission === 'granted') {
+          new Notification('Error', {
+            body: message,
+          });
+        }
+      });
+    }
   };
 
   return (

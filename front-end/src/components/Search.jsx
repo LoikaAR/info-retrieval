@@ -8,7 +8,7 @@ function Search({ onPostSuccess }) {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
-    duration: '',
+    region: '',
     distance: '',
   });
 
@@ -28,7 +28,7 @@ function Search({ onPostSuccess }) {
     if (!isVisible) {
       setSelectedOptions({
         category: '',
-        duration: '',
+        region: '',
         distance: '',
       });
     }

@@ -19,10 +19,14 @@ from django.urls import path
 from myapp import views
 from myapp.views import get_csrf_token
 from myapp.views import get_data
+from myapp.views import get_regions
+from myapp.views import get_categories
 
 urlpatterns = [
     path('api/get_csrf_token/', get_csrf_token, name='get_csrf_token'),
     path('api/get_data/', get_data, name='get_data'),
+    path('api/get_regions/', get_regions, name='get_regions'),
+    path('api/get_categories/', get_categories, name='get_categories'),
     path('api/submit-form/', views.submit_form, name='submit_form'),
     path('', admin.site.urls),
 ]

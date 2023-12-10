@@ -8,6 +8,7 @@ from .terrier_utils.indexer import *
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
+from .terrier_utils.get_filter_categories import get_top_10_regions, get_top_10_categories
 
 br = generate_factory()
 
@@ -42,6 +43,14 @@ def get_data(request):
         # Return a response indicating the file was not found
         return JsonResponse({"error": "File not found"}, status=404)
 
+
+def get_regions(request):
+    regions = get_top_10_regions()
+    return JsonResponse({'regions': regions})
+
+def get_categories(request):
+    categories = get_top_10_categories()
+    return JsonResponse({'categories': categories})
 
 
 def get_csrf_token(request):
@@ -80,10 +89,10 @@ def submit_form(request):
                 # Access the specific fields (query, category, region)
                 query = json_data.get('query')
                 category = json_data.get('category')
-                duration = json_data.get('duration')
+                region = json_data.get('region')
                 distance = json_data.get('distance')
                 print("Received query: " + query + " " +
-                      category + " " + duration + " " + distance)
+                      category + " " + region + " " + distance)
                 
                 transorm_query(br, query)                
 
