@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Dropdown from './Dropdown';
 import { fetchRegionOptions, fetchCategoryOptions } from '../router.jsx';
@@ -32,6 +32,9 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
   
   return (
     <div className="dropdowns">
+      <span style={{color: 'var(--primary)', margin: '10px'}}>Activities:</span>
+      <span style={{color: 'var(--primary)', margin: '10px'}}>Region:</span>
+      <span style={{color: 'var(--primary)', margin: '10px'}}>Distance:</span>
       <Dropdown
         options={categoryOptions.concat(['Any Category'])}
         selectedOption={selectedOptions.category}
@@ -43,9 +46,7 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
         setSelectedOption={(option) => handleOptionSelection('region', option)}
       />
       <div className='distance'>
-        <span style={{ color: 'var(--primary)' }}>Distance:</span>
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
-          <input
+      <input
             placeholder='Max:'
             type="text"
             value={maxDistance}
@@ -57,7 +58,6 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
             value={minDistance}
             onChange={handleMinDistanceChange}
           ></input>
-        </div>
       </div>
     </div>
   );
