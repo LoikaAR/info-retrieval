@@ -38,7 +38,7 @@ class OutdoorSpider(scrapy.Spider):
             )
 
     def parse_inner(self, response, name, region, category, distance, duration, ascent, link):
-        desc_short = response.xpath("//div[@class='border-right-lg']/p[@id='short-text']/em/text()").get()
+        desc_short = response.xpath("//div[@class='border-right-lg']/p[@id='short-text']/em/text()").get().strip('\n').lstrip()
         desc_main = response.xpath("//div[@id='text']/p/text()").getall()
         description = [desc_short] + desc_main
 
