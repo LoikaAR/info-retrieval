@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
-import { getCSRFToken } from '../router';
+import { getCSRFToken, fetchData } from '../router';
 
 
-const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query }) => {
+const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, setData }) => {
   const [helpful, setHelpful] = useState(null);
+
   const submitRecommendation = async (nameValue, queryValue, setHelpfulValue) => {
     try {
       const csrftoken = await getCSRFToken();
-  
+
       if (csrftoken) {
         const dataToSubmit = {
           name: nameValue,
           query: queryValue,
           setHelpful: setHelpfulValue,
         };
-  
+
         const response = await fetch('http://localhost:8000/api/submit_recommendation/', {
           method: 'POST',
           headers: {
@@ -25,10 +26,11 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
           },
           body: JSON.stringify(dataToSubmit),
         });
-  
+
         if (response.ok) {
           console.log('Recommendation submitted successfully');
-          // Handle success response from the backend if needed
+          // Trigger fetchData function after successful submission
+          fetchData(setData); // Assuming setData is a state setter function for your data
         } else {
           console.error('Error submitting recommendation');
           // Handle error response from the backend if needed
@@ -114,6 +116,8 @@ ResultBox.propTypes = {
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   query: PropTypes.object.isRequired,
+  setData: PropTypes.func.isRequired,
+
 };
 
 export default ResultBox;

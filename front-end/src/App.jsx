@@ -111,6 +111,7 @@ function App() {
             ascent={item.ascent}
             description={item.description}
             query={query}
+            setData={setData}
           />
         ))}
         {/* Pagination */}
