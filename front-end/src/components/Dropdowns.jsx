@@ -49,13 +49,13 @@ const Dropdowns = ({ selectedOptions, handleOptionChange }) => {
       />
       <div className='distance'>
         <input
-          placeholder='Min:'
+          placeholder='Min: km'
           type="text"
           value={minDistance === 0 ? '' : minDistance} // Display empty string if minDistance is 0
           onChange={handleMinDistanceChange}
         ></input>
         <input
-          placeholder='Max:'
+          placeholder='Max: km'
           type="text"
           value={maxDistance === 0 ? '' : maxDistance}
           onChange={handleMaxDistanceChange}
