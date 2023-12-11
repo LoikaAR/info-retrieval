@@ -71,7 +71,7 @@ def obj_distance_parser(obj_distance):
 
 def apply_category_filter(category, region, min_dist, max_dist):
     res = []
-    with open('./myapp/terrier_utils/ordered_json_file.json', 'r', encoding='utf-8') as file:
+    with open('../../front-end/public/ordered_json_file.json', 'r', encoding='utf-8') as file:
         df = json.load(file)
     chosen_cat = chosen_categories(category)
 
@@ -96,5 +96,5 @@ def apply_category_filter(category, region, min_dist, max_dist):
         if is_category and is_region and is_distance:
             res.append(obj)
 
-    with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
+    with open('../../front-end/public/ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(res, file, indent=4, default=str)
