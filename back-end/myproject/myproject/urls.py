@@ -27,6 +27,7 @@ urlpatterns = [
     path('api/get_data/', get_data, name='get_data'),
     path('api/get_regions/', get_regions, name='get_regions'),
     path('api/get_categories/', get_categories, name='get_categories'),
+    path('api/submit_recommendation/', views.submit_recommendation, name='submit_recommendation'),
     path('api/submit-form/', views.submit_form, name='submit_form'),
     path('', admin.site.urls)
 ]

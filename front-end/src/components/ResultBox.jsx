@@ -1,13 +1,47 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
-// import { saveAs } from 'file-saver';
-// import fs from 'fs';
+import { getCSRFToken } from '../router';
 
 
 const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query }) => {
   const [helpful, setHelpful] = useState(null);
+  const submitRecommendation = async (nameValue, queryValue, setHelpfulValue) => {
+    try {
+      const csrftoken = await getCSRFToken();
   
+      if (csrftoken) {
+        const dataToSubmit = {
+          name: nameValue,
+          query: queryValue,
+          setHelpful: setHelpfulValue,
+        };
+  
+        const response = await fetch('http://localhost:8000/api/submit_recommendation/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrftoken,
+          },
+          body: JSON.stringify(dataToSubmit),
+        });
+  
+        if (response.ok) {
+          console.log('Recommendation submitted successfully');
+          // Handle success response from the backend if needed
+        } else {
+          console.error('Error submitting recommendation');
+          // Handle error response from the backend if needed
+        }
+      } else {
+        console.log('Error: CSRF token retrieval failed');
+        // Handle if CSRF token retrieval fails
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
   const handleCheckboxChange = (value) => {
     if (helpful === value) {
       // If the clicked checkbox is already selected, deselect it
@@ -15,26 +49,30 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
     } else {
       setHelpful(value);
     }
-    console.log(name)
+    
+    submitRecommendation(name, query.query, value);
 
-    fetch('../../public/ordered_json_file.json').then(response => {
-      return response.json();
-    }).then(data => {
-      for (let i = 0; i < data.length; i++) {
-        if (data[i].name === name) {
+    
+    // THE POST NEEDS THE DOC NAME , THE QUERY , AND THE SETHELPFUL VALUE
+
+    // fetch('../../public/ordered_json_file.json').then(response => {
+    //   return response.json();
+    // }).then(data => {
+    //   for (let i = 0; i < data.length; i++) {
+    //     if (data[i].name === name) {
           
-          data[i].name = "TEST";
+    //       // data[i].name = "TEST";
 
-          console.log(data[i].name)
-          // fs.writeFile('../../public/ordered_json_file.json', data, null, 4)
+    //       console.log(data[i].name)
+    //       // fs.writeFile('../../public/ordered_json_file.json', data, null, 4)
 
-          break
-        }
-      }
+    //       break
+    //     }
+    //   }
       
-      // console.log(docno)
-    })
-    .catch(error => console.error('Error fetching the JSON file:', error));
+    //   // console.log(docno)
+    // })
+    // .catch(error => console.error('Error fetching the JSON file:', error));
 
   };
 

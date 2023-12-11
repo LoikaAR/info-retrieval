@@ -98,3 +98,39 @@ def submit_form(request):
             return JsonResponse({'error': 'No JSON data received'}, status=400)
     else:
         return JsonResponse({'error': 'Invalid request method'}, status=400)
+
+
+
+@csrf_exempt
+def submit_recommendation(request):
+    """
+    Processes JSON data from a POST request and returns a JSON response.
+
+    Args:
+    - request: HttpRequest object
+
+    Returns:
+    - JsonResponse: JSON response confirming successful data processing or error
+    """
+    if request.method == 'POST':
+        # Check if the request has JSON data
+        if request.body:
+            try:
+                # Load the JSON data from the request body
+                json_data = json.loads(request.body)
+
+                # Access the specific fields (query, category, region)
+                query = json_data.get('query')
+                name = json_data.get('name')
+                set_helpful = json_data.get('setHelpful')
+                print("Received query: " + query + "| name: " + name
+                      + "| setHelpful: " + set_helpful)
+                # Return a success message or any other response if needed
+
+                return JsonResponse({'message': 'JSON data processed successfully'})
+            except json.JSONDecodeError:
+                return JsonResponse({'error': 'Invalid JSON format'}, status=400)
+        else:
+            return JsonResponse({'error': 'No JSON data received'}, status=400)
+    else:
+        return JsonResponse({'error': 'Invalid request method'}, status=400)
