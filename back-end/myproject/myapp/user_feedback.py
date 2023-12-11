@@ -40,7 +40,16 @@ def update_relevance(docno, feedback):
     with open('./myapp/terrier_utils/parsed.json', 'w', encoding='utf-8') as file:
         json.dump(dt, file, indent=4, default=str)
 
-
+def find_relevance(docno):
+    relevance = ''
+    with open('./myapp/terrier_utils/parsed.json', 'r', encoding='utf-8') as file:
+        dt = json.load(file)
+    for obj in dt:
+        if docno == obj["docno"]:
+            relevance = obj["relevance"]
+            print("object relevace: " + obj["relevance"])
+            break
+    return relevance
 
 def reset_relevance():
     with open('./myapp/terrier_utils/parsed.json', 'r', encoding='utf-8') as file:
@@ -52,23 +61,43 @@ def reset_relevance():
 
 
 
+# def change_score(doc_name, feedback):
+#     with open('./myapp/terrier_utils/retrieved.json', 'r', encoding='utf-8') as file:
+#         terrier_data = json.load(file)
+    
+#     for ter_obj in terrier_data:
+#         if find_docno(doc_name) == ter_obj["docno"]:
+#             update_relevance(find_docno(doc_name),feedback)
+#             # print(find_docno(doc_name))
+#             if feedback == "Yes":
+#                 ter_obj["score"] *= 3
+#             if feedback == 'No':
+#                 ter_obj["score"] *= 0.07
+#             if feedback == '':
+#                 if floor(ter_obj["score"]) % 3 == 0:
+#                     ter_obj["score"] /= 3
+#                 elif floor(ter_obj["score"]) % 0.07 == 0:
+#                     ter_obj["score"] /= 0.07
+
+
 def change_score(doc_name, feedback):
     with open('./myapp/terrier_utils/retrieved.json', 'r', encoding='utf-8') as file:
         terrier_data = json.load(file)
     
     for ter_obj in terrier_data:
-        if find_docno(doc_name) == ter_obj["docno"]:
+        obj_docno = find_docno(doc_name)
+        if obj_docno == ter_obj["docno"]:
+            prev_relevance = find_relevance(obj_docno)
             update_relevance(find_docno(doc_name),feedback)
             # print(find_docno(doc_name))
-            if feedback == "Yes":
+            if feedback == "Yes" and prev_relevance == '':
                 ter_obj["score"] *= 3
             if feedback == 'No':
                 ter_obj["score"] *= 0.07
-            if feedback == '':
-                if floor(ter_obj["score"]) % 3 == 0:
-                    ter_obj["score"] /= 3
-                elif floor(ter_obj["score"]) % 0.07 == 0:
-                    ter_obj["score"] /= 0.07
+            if feedback == '' and prev_relevance == "Yes":
+                ter_obj["score"] /= 3
+            if feedback == '' and prev_relevance == "No":
+                ter_obj["score"] /= 0.07
                 
 
     # re-sort the retrieved.json so that the entries are ordered from highest score to lowest
