@@ -9,6 +9,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
 from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,apply_category_filter
+from .user_feedback import change_score
 
 br = generate_factory()
 
@@ -89,6 +90,7 @@ def submit_form(request):
                 transorm_query(br, query)
                 apply_category_filter(category,region, min_distance, max_distance)
 
+
                 # Return a success message or any other response if needed
 
                 return JsonResponse({'message': 'JSON data processed successfully'})
@@ -123,9 +125,11 @@ def submit_recommendation(request):
                 query = json_data.get('query')
                 name = json_data.get('name')
                 set_helpful = json_data.get('setHelpful')
-                print("Received query: " + query + "| name: " + name
-                      + "| setHelpful: " + set_helpful)
-                # Return a success message or any other response if needed
+                print("Received query: " + query + " | name: " + name
+                      + " | setHelpful: " + set_helpful)
+
+                change_score(name, set_helpful)
+                parse_order()
 
                 return JsonResponse({'message': 'JSON data processed successfully'})
             except json.JSONDecodeError:
