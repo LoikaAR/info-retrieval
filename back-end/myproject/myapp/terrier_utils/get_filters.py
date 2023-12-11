@@ -81,6 +81,15 @@ def chosen_categories(queriedCat):
 #     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
 #         json.dump(res, file, indent=4, default=str)
 
+def obj_distance_parser(obj_distance):
+    res = obj_distance.split(' ')
+    numeric_value = res[0].replace(',', '.')
+
+    if numeric_value != 'n/a':
+        return float(numeric_value)
+    return 0.0
+
+
 def apply_category_filter(category, region, min_dist, max_dist):
     res = []
     with open('./myapp/terrier_utils/ordered_json_file.json', 'r', encoding='utf-8') as file:
@@ -88,25 +97,35 @@ def apply_category_filter(category, region, min_dist, max_dist):
     chosen_cat = chosen_categories(category)
 
     for obj in df:
-        is_category = False
-        is_region = False
+        is_category = len(category) == 0 or obj["category"] in chosen_cat
+        is_region = len(region) == 0 or obj["region"] == region
         is_distance = False
-        if obj["category"] in chosen_cat or len(category) == 0:
-            is_category = True
-        if len(region) == 0 or obj["region"] == region:
-            is_region = True
-        # if len(min_dist) == 0 and len(max_dist) == 0:
+
+        # if min_dist == 0 and max_dist == 0:
         #     is_distance = True
-        # if len(min_dist) == 0 and obj_distance_parser(obj["distance"]) <= max_dist:
-        #     is_distance = True
-        if is_region and is_category:
+        # elif obj["distance"] != 'n/a':
+        #     distance_value = obj_distance_parser(obj["distance"])
+        #     if min_dist == 0.0:
+        #         is_distance = distance_value <= max_dist
+        #     else:
+        #         is_distance = min_dist <= distance_value <= max_dist
+
+
+        distance_value = obj_distance_parser(obj["distance"])
+        if min_dist == 0:
+            if max_dist == 0:
+                is_distance = True
+            else:
+                is_distance = distance_value <= max_dist
+        if min_dist > 0:
+            if max_dist == 0:
+                is_distance = distance_value >=  min_dist
+            else:
+                is_distance = max_dist >= distance_value >=  min_dist
+
+
+        if is_category and is_region and is_distance:
             res.append(obj)
 
     with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(res, file, indent=4, default=str)
-
-def obj_distance_parser(obj_distance):
-    res = obj_distance.split(' ')
-    numeric_value = res[0].replace(',', '.')
-    return float(numeric_value)
-

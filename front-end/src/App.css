@@ -300,7 +300,7 @@ a {
 .select-dropdown {
   position: absolute;
   list-style: none;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   background-color: var(--primary);
   border: 1px solid #caced1;
@@ -309,6 +309,7 @@ a {
   margin-top: 10px;
   max-height: 200px;
   overflow-y: auto;
+  overflow-x: hidden;
   transition: 0.5s ease;
   transform: scaleY(0);
   opacity: 0;
