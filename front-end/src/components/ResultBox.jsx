@@ -4,8 +4,8 @@ import HighlightedText from './HighlightedText';
 import { getCSRFToken, fetchData } from '../router';
 
 
-const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, setData }) => {
-  const [helpful, setHelpful] = useState(null);
+const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, relevance, setData }) => {
+  const [helpful, setHelpful] = useState(relevance);
 
   const submitRecommendation = async (nameValue, queryValue, setHelpfulValue) => {
     try {
@@ -116,6 +116,7 @@ ResultBox.propTypes = {
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   query: PropTypes.object.isRequired,
+  relevance: PropTypes.string.isRequired,
   setData: PropTypes.func.isRequired,
 
 };

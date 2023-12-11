@@ -110,6 +110,7 @@ function App() {
             duration={item.duration}
             ascent={item.ascent}
             description={item.description}
+            relevance={item.relevance}
             query={query}
             setData={setData}
           />
