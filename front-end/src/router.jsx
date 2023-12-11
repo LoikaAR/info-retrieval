@@ -80,4 +80,4 @@ export async function fetchCategoryOptions(setRegionOptions) {
     } catch (error) {
       console.error('Error fetching region options:', error);
     }
-  }  
+  }

@@ -14,6 +14,7 @@ def generate_factory():
     docs_df['duration'].fillna('n/a h', inplace=True)
     docs_df.insert(0, 'docno', '')
     docs_df.insert(1, 'text', '')
+    docs_df.insert(2, 'relevance', '')
 
     # print options
     pd.set_option('display.max_rows', docs_df.shape[0]+1)
@@ -63,3 +64,5 @@ def transorm_query(br, query):
         json.dump(jsoned, file, indent=4)
 
     parse_order()
+
+generate_factory()
