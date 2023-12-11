@@ -33,6 +33,7 @@ def change_score(doc_name, feedback):
     
     for ter_obj in terrier_data:
         if find_docno(doc_name) == ter_obj["docno"]:
+            ter_obj["relevance"] = feedback
             if feedback == "Yes":
                 ter_obj["score"] *= 4
             # if feedback == 'No':
