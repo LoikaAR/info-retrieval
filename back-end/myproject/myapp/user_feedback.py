@@ -1,4 +1,5 @@
 import json
+from math import floor
 
 
 def find_docno(name):
@@ -60,11 +61,15 @@ def change_score(doc_name, feedback):
             update_relevance(find_docno(doc_name),feedback)
             # print(find_docno(doc_name))
             if feedback == "Yes":
-                ter_obj["score"] *= 4
-            # if feedback == 'No':
-            #     ter_obj["score"] *= 0.01
+                ter_obj["score"] *= 3
+            if feedback == 'No':
+                ter_obj["score"] *= 0.07
             if feedback == '':
-                ter_obj["score"] /= 4
+                if floor(ter_obj["score"]) % 3 == 0:
+                    ter_obj["score"] /= 3
+                elif floor(ter_obj["score"]) % 0.07 == 0:
+                    ter_obj["score"] /= 0.07
+                
 
     # re-sort the retrieved.json so that the entries are ordered from highest score to lowest
     terrier_data.sort(key=lambda x: x['score'], reverse=True)
