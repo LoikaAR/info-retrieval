@@ -85,14 +85,6 @@ def submit_form(request):
                       category + " " + region + " min distance" + str(min_distance) + " max distance:" + str(max_distance))
 
                 transorm_query(br, query)
-                # if (len(category) > 0):
-                #     apply_category_filter(category)
-                # if (len(region) > 0):
-                #     apply_region_filter(region)
-                # if len(min_distance) > 0:
-                #     min_distance = float(min_distance)
-                # if len(max_distance) > 0:
-                #     max_distance = float(max_distance)
                 apply_category_filter(category,region, min_distance, max_distance)
 
                 # Return a success message or any other response if needed

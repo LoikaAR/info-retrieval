@@ -59,27 +59,6 @@ def chosen_categories(queriedCat):
 
     return res
 
-# def apply_category_filter(category, region):
-#     res = []
-#     with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
-#         data = json.load(file)
-#     filter = chosen_categories(category)
-#     for obj in data:
-#         if obj["category"] in filter:
-#             res.append(obj)
-#     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
-#         json.dump(res, file, indent=4, default=str)
-
-
-# def apply_region_filter(region):
-#     res = []
-#     with open('ordered_json_file.json', 'r', encoding='utf-8') as file:
-#         data = json.load(file)
-#     for obj in data:
-#         if obj["region"] == region:
-#             res.append(obj)
-#     with open('ordered_json_file.json', 'w', encoding='utf-8') as file:
-#         json.dump(res, file, indent=4, default=str)
 
 def obj_distance_parser(obj_distance):
     res = obj_distance.split(' ')
@@ -100,16 +79,6 @@ def apply_category_filter(category, region, min_dist, max_dist):
         is_category = len(category) == 0 or obj["category"] in chosen_cat
         is_region = len(region) == 0 or obj["region"] == region
         is_distance = False
-
-        # if min_dist == 0 and max_dist == 0:
-        #     is_distance = True
-        # elif obj["distance"] != 'n/a':
-        #     distance_value = obj_distance_parser(obj["distance"])
-        #     if min_dist == 0.0:
-        #         is_distance = distance_value <= max_dist
-        #     else:
-        #         is_distance = min_dist <= distance_value <= max_dist
-
 
         distance_value = obj_distance_parser(obj["distance"])
         if min_dist == 0:
