@@ -9,7 +9,7 @@ function Search({ onPostSuccess }) {
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
     region: '',
-    distance: { min: '', max: '' },
+    distance: { min: 0.0, max: 0.0 },
   });
 
 
@@ -30,7 +30,7 @@ function Search({ onPostSuccess }) {
       setSelectedOptions({
         category: '',
         region: '',
-        distance: { min: '', max: '' },
+        distance: { min: 0.0, max: 0.0 },
       });
     }
   }, [isVisible]);

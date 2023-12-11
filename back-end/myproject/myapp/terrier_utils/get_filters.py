@@ -97,9 +97,16 @@ def apply_category_filter(category, region, min_dist, max_dist):
             is_region = True
         # if len(min_dist) == 0 and len(max_dist) == 0:
         #     is_distance = True
-        # if len(min_dist) == 0 and
+        # if len(min_dist) == 0 and obj_distance_parser(obj["distance"]) <= max_dist:
+        #     is_distance = True
         if is_region and is_category:
             res.append(obj)
 
     with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(res, file, indent=4, default=str)
+
+def obj_distance_parser(obj_distance):
+    res = obj_distance.split(' ')
+    numeric_value = res[0].replace(',', '.')
+    return float(numeric_value)
+
