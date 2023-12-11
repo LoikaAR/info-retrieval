@@ -43,37 +43,10 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
   };
 
   const handleCheckboxChange = (value) => {
-    if (helpful === value) {
-      // If the clicked checkbox is already selected, deselect it
-      setHelpful(null);
-    } else {
-      setHelpful(value);
-    }
+      let newValue = value === helpful ? '' : value;
+      setHelpful(newValue);
     
-    submitRecommendation(name, query.query, value);
-
-    
-    // THE POST NEEDS THE DOC NAME , THE QUERY , AND THE SETHELPFUL VALUE
-
-    // fetch('../../public/ordered_json_file.json').then(response => {
-    //   return response.json();
-    // }).then(data => {
-    //   for (let i = 0; i < data.length; i++) {
-    //     if (data[i].name === name) {
-          
-    //       // data[i].name = "TEST";
-
-    //       console.log(data[i].name)
-    //       // fs.writeFile('../../public/ordered_json_file.json', data, null, 4)
-
-    //       break
-    //     }
-    //   }
-      
-    //   // console.log(docno)
-    // })
-    // .catch(error => console.error('Error fetching the JSON file:', error));
-
+      submitRecommendation(name, query.query, newValue);
   };
 
   return (
