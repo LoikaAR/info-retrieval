@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
 import { getCSRFToken, fetchData } from '../router';
@@ -6,6 +6,10 @@ import { getCSRFToken, fetchData } from '../router';
 
 const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, relevance, setData }) => {
   const [helpful, setHelpful] = useState(relevance);
+
+  useEffect(() => {
+    setHelpful(relevance);
+  }, [relevance]);
 
   const submitRecommendation = async (nameValue, queryValue, setHelpfulValue) => {
     try {
@@ -29,6 +33,7 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
 
         if (response.ok) {
           console.log('Recommendation submitted successfully');
+          setHelpful(null);
           // Trigger fetchData function after successful submission
           fetchData(setData); // Assuming setData is a state setter function for your data
         } else {
@@ -54,7 +59,7 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
 
   return (
     <div className="result-box">
-      {console.log("the query iiiis: " + query.query)}
+      {console.log("relevance: " + relevance)}
       {/* {setArr(highlightQuery())} */}
       <a className="result-link" href={link} target="_blank" rel="noreferrer">
         <h2 className="result-title">

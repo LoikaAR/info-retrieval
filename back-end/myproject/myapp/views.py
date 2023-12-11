@@ -9,7 +9,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.middleware.csrf import get_token
 from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,apply_category_filter
-from .user_feedback import change_score
+from .user_feedback import change_score,update_order
 
 br = generate_factory()
 
@@ -129,6 +129,7 @@ def submit_recommendation(request):
                       + " | setHelpful: " + set_helpful)
 
                 change_score(name, set_helpful)
+                # update_order()
                 parse_order()
 
                 return JsonResponse({'message': 'JSON data processed successfully'})

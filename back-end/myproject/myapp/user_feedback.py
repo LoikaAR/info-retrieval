@@ -27,13 +27,38 @@ def find_docno(name):
 #     with open('./myapp/terrier_utils/retrieved.json', 'w', encoding='utf-8') as file:
 #         json.dump(terrier_data, file, indent=4, default=str)
 
+def update_relevance(docno, feedback):
+    with open('./myapp/terrier_utils/parsed.json', 'r', encoding='utf-8') as file:
+        dt = json.load(file)
+    for obj in dt:
+        if docno == obj["docno"]:
+            obj["relevance"] = feedback
+            print("object relevace: " + obj["relevance"])
+            break
+            
+    with open('./myapp/terrier_utils/parsed.json', 'w', encoding='utf-8') as file:
+        json.dump(dt, file, indent=4, default=str)
+
+
+
+def reset_relevance():
+    with open('./myapp/terrier_utils/parsed.json', 'r', encoding='utf-8') as file:
+        dt = json.load(file)
+    for obj in dt:
+        obj["relevance"] = ''
+    with open('./myapp/terrier_utils/parsed.json', 'w', encoding='utf-8') as file:
+        json.dump(dt, file, indent=4, default=str)
+
+
+
 def change_score(doc_name, feedback):
     with open('./myapp/terrier_utils/retrieved.json', 'r', encoding='utf-8') as file:
         terrier_data = json.load(file)
     
     for ter_obj in terrier_data:
         if find_docno(doc_name) == ter_obj["docno"]:
-            ter_obj["relevance"] = feedback
+            update_relevance(find_docno(doc_name),feedback)
+            # print(find_docno(doc_name))
             if feedback == "Yes":
                 ter_obj["score"] *= 4
             # if feedback == 'No':
@@ -50,6 +75,34 @@ def change_score(doc_name, feedback):
     
     with open('./myapp/terrier_utils/retrieved.json', 'w', encoding='utf-8') as file:
         json.dump(terrier_data, file, indent=4, default=str)
+
+
+
+def update_order():
+    # load docs
+    docs = []
+    retrieved = open('./myapp/terrier_utils/retrieved.json', 'r')
+    batch = json.load(retrieved)
+
+    idx = 0
+    while idx < len(batch):
+        docs.append(batch[idx].get('docno'))
+        idx += 1 
+
+    # Read the JSON file
+    with open('../../front-end/public/ordered_json_file.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    # Reorder the JSON entries based on the 'docs' array
+    ordered_data = [None]*len(docs)
+    for i in range(len(docs)):
+        for j in range(len(data)):
+            if (docs[i] == data[j]["docno"]):
+                ordered_data[i] = data[j]
+
+    with open('../../front-end/public/ordered_json_file.json', 'w', encoding='utf-8') as file:
+        json.dump(ordered_data, file, indent=4, default=str)
+
 
 # def reorder_retrieved():
 
