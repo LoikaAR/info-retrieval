@@ -27,7 +27,7 @@ const Dropdown = ({ options, selectedOption, setSelectedOption }) => {
         aria-expanded={isOpen}
       >
         <span className="selected-value">
-          {selectedOption || 'Select an option'}
+          {selectedOption || 'Select an Option'}
           {/* we can use selectedOption in the query for finding the relevant results */}
           {/* {console.log("selectedOption length: " + selectedOption.length)}
           {console.log("selected Option: " + selectedOption)} */}
