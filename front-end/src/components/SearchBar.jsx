@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 
 const SearchBar = ({ handleFormSubmit }) => {
   const [query, setQuery] = useState('');
+  const [emptyMessage, setEmptyMessage] = useState('');
 
   const handleChange = (event) => {
     setQuery(event.target.value);
@@ -16,6 +17,9 @@ const SearchBar = ({ handleFormSubmit }) => {
     if (sanitizedQuery.trim() !== query.trim()) {
       showNotification('Please avoid using special characters.'); // Display browser notification
       return; // Prevent form submission
+    }
+    if (query.length == 0) {
+      setEmptyMessage("Examples: hike, the Alps, skiing, museums...")
     }
     handleFormSubmit({ query: sanitizedQuery.trim() }); // Pass sanitized query to the parent component for submission
     // setQuery(''); // Reset query after submission
@@ -42,7 +46,7 @@ const SearchBar = ({ handleFormSubmit }) => {
       <input
         className="search-input"
         type="text"
-        placeholder="I want to go to..."
+        placeholder={emptyMessage || 'Search Your Adventure!'}
         value={query}
         onChange={handleChange}
         autoFocus
