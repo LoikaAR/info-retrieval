@@ -124,13 +124,29 @@ def submit_recommendation(request):
                 # Access the specific fields (query, category, region)
                 query = json_data.get('query')
                 name = json_data.get('name')
-                set_helpful = json_data.get('setHelpful')
-                print("Received query: " + query + " | name: " + name
-                      + " | setHelpful: " + set_helpful)
+                feedback = json_data.get('setHelpful')
 
-                change_score(name, set_helpful)
+
+                search_options = json_data.get('searchOptions', {})
+
+                category = search_options.get('category')
+                region = search_options.get('region')
+                distance = search_options.get('distance', {})
+                min_distance = distance.get('min', '')
+                max_distance = distance.get('max', '')
+
+                print("Received query:", query)
+                print("Received name:", name)
+                print("Received feedback:", feedback)
+                print("Received category:", category)
+                print("Received region:", region)
+                print("Received min_distance:", min_distance)
+                print("Received max_distance:", max_distance)
+
+                change_score(name, feedback)
                 # update_order()
                 parse_order()
+                apply_category_filter(category,region, min_distance, max_distance)
 
                 return JsonResponse({'message': 'JSON data processed successfully'})
             except json.JSONDecodeError:

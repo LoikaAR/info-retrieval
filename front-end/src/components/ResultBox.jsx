@@ -4,24 +4,25 @@ import HighlightedText from './HighlightedText';
 import { getCSRFToken, fetchData } from '../router';
 
 
-const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, relevance, setData }) => {
+const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query, relevance, setData, searchOptions }) => {
   const [helpful, setHelpful] = useState(relevance);
 
   useEffect(() => {
     setHelpful(relevance);
   }, [relevance]);
 
-  const submitRecommendation = async (nameValue, queryValue, setHelpfulValue) => {
+  const submitRecommendation = async (nameValue, queryValue, setHelpfulValue, searchOptionsValue) => {
     try {
       const csrftoken = await getCSRFToken();
-
+  
       if (csrftoken) {
         const dataToSubmit = {
           name: nameValue,
           query: queryValue,
           setHelpful: setHelpfulValue,
+          searchOptions: searchOptionsValue,
         };
-
+  
         const response = await fetch('http://localhost:8000/api/submit_recommendation/', {
           method: 'POST',
           headers: {
@@ -30,7 +31,7 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
           },
           body: JSON.stringify(dataToSubmit),
         });
-
+  
         if (response.ok) {
           console.log('Recommendation submitted successfully');
           setHelpful(null);
@@ -48,17 +49,19 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
       console.error('Error:', error);
     }
   };
+  
 
   const handleCheckboxChange = (value) => {
       let newValue = value === helpful ? '' : value;
       setHelpful(newValue);
     
-      submitRecommendation(name, query.query, newValue);
+      submitRecommendation(name, query.query, newValue, searchOptions);
 
   };
 
   return (
     <div className="result-box">
+    {console.log("search options category: " + searchOptions.category)}
       {console.log("relevance: " + relevance)}
       {/* {setArr(highlightQuery())} */}
       <a className="result-link" href={link} target="_blank" rel="noreferrer">
@@ -123,7 +126,7 @@ ResultBox.propTypes = {
   query: PropTypes.object.isRequired,
   relevance: PropTypes.string.isRequired,
   setData: PropTypes.func.isRequired,
-
+  searchOptions: PropTypes.object.isRequired,
 };
 
 export default ResultBox;

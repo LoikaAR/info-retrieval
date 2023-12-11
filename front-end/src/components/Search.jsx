@@ -4,7 +4,7 @@ import Dropdowns from './Dropdowns';
 import { getCSRFToken } from "../router.jsx";
 import PropTypes from 'prop-types';
 
-function Search({ onPostSuccess }) {
+function Search({ onPostSuccess, setSearchOptions }) {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState({
     category: '',
@@ -12,6 +12,9 @@ function Search({ onPostSuccess }) {
     distance: { min: 0.0, max: 0.0 },
   });
 
+  useEffect(() => {
+    setSearchOptions(selectedOptions);
+  }, [selectedOptions, setSearchOptions]);
 
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
@@ -90,6 +93,7 @@ function Search({ onPostSuccess }) {
 
 Search.propTypes = {
   onPostSuccess: PropTypes.func.isRequired,
+  setSearchOptions: PropTypes.func.isRequired,
 };
 
 export default Search;

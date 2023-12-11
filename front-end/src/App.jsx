@@ -12,6 +12,15 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [resultsPerPage] = useState(5); // Number of results to display per page
   const maxButtonsToShow = 10; // Maximum number of page buttons to display
+  const [searchOptions, setSearchOptions] = useState({
+    category: '',
+    region: '',
+    distance: { min: 0.0, max: 0.0 },
+  });
+
+  const handleSearchOptionsChange = (options) => {
+    setSearchOptions(options);
+  };
 
   const handleSuccessfulPost = (query) => {
     // Function to handle successful post request triggering the get request
@@ -94,11 +103,15 @@ function App() {
 
   return (
     <>
+    {console.log("search options region is: " + searchOptions.region)}
       <div>
         <Header />
       </div>
       <main>
-        <Search onPostSuccess={handleSuccessfulPost} />
+        <Search
+          onPostSuccess={handleSuccessfulPost}
+          setSearchOptions={handleSearchOptionsChange}
+        />
         {currentResults.map((item, index) => (
           <ResultBox
             key={index}
@@ -113,6 +126,7 @@ function App() {
             relevance={item.relevance}
             query={query}
             setData={setData}
+            searchOptions={searchOptions}
           />
         ))}
         {/* Pagination */}
