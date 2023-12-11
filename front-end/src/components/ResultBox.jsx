@@ -47,6 +47,7 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
       setHelpful(newValue);
     
       submitRecommendation(name, query.query, newValue);
+
   };
 
   return (

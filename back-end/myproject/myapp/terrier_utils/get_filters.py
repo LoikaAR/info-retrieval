@@ -64,7 +64,7 @@ def obj_distance_parser(obj_distance):
     res = obj_distance.split(' ')
     numeric_value = res[0].replace(',', '.')
 
-    if numeric_value != 'n/a':
+    if numeric_value != 'varies':
         return float(numeric_value)
     return 0.0
 
