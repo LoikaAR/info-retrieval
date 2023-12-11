@@ -13,8 +13,10 @@ from .terrier_utils.get_filters import get_top_5_regions, get_top_categories,app
 br = generate_factory()
 
 def get_data(request):
-    # Path to your JSON file
-    json_file_path = './myapp/terrier_utils/ordered_json_file.json'  # Replace with the actual path
+    # path to ordered json file
+    # json_file_path = './myapp/terrier_utils/ordered_json_file.json'
+
+    json_file_path = '../../front-end/public/ordered_json_file.json'
 
     # Check if the file exists
     if os.path.exists(json_file_path):

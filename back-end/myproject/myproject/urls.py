@@ -28,5 +28,5 @@ urlpatterns = [
     path('api/get_regions/', get_regions, name='get_regions'),
     path('api/get_categories/', get_categories, name='get_categories'),
     path('api/submit-form/', views.submit_form, name='submit_form'),
-    path('', admin.site.urls),
+    path('', admin.site.urls)
 ]

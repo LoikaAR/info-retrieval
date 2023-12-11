@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
+// import { saveAs } from 'file-saver';
+// import fs from 'fs';
+
 
 const ResultBox = ({ name, region, category, distance, duration, ascent, description, link, query }) => {
   const [helpful, setHelpful] = useState(null);
-
+  
   const handleCheckboxChange = (value) => {
     if (helpful === value) {
       // If the clicked checkbox is already selected, deselect it
@@ -12,6 +15,27 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
     } else {
       setHelpful(value);
     }
+    console.log(name)
+
+    fetch('../../public/ordered_json_file.json').then(response => {
+      return response.json();
+    }).then(data => {
+      for (let i = 0; i < data.length; i++) {
+        if (data[i].name === name) {
+          
+          data[i].name = "TEST";
+
+          console.log(data[i].name)
+          // fs.writeFile('../../public/ordered_json_file.json', data, null, 4)
+
+          break
+        }
+      }
+      
+      // console.log(docno)
+    })
+    .catch(error => console.error('Error fetching the JSON file:', error));
+
   };
 
   return (

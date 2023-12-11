@@ -28,6 +28,9 @@ def parse_order():
     # print(ordered_data)
 
     # Rewrite the JSON file with ordered entries
-    with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
+    # with open('./myapp/terrier_utils/ordered_json_file.json', 'w', encoding='utf-8') as file:
+    #     json.dump(ordered_data, file, indent=4, default=str)
+
+    with open('../../front-end/public/ordered_json_file.json', 'w', encoding='utf-8') as file:
         json.dump(ordered_data, file, indent=4, default=str)
 
