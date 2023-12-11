@@ -124,3 +124,63 @@ https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-sear
 status: 200
 following to the next page:
 https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=2
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=3
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=4
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=5
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=6
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=7
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=8
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=9
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=10
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=11
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=12
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=13
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=14
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=15
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=16
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=17
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=18
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=19
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=20
+status: 200
+following to the next page:
+https://www.myswitzerland.com/en-ch/experiences/summer-autumn/hiking/hiking-search/?p=21

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import HighlightedText from './HighlightedText';
-// import { saveAs } from 'file-saver';
 // import fs from 'fs';
 
 
@@ -22,16 +21,17 @@ const ResultBox = ({ name, region, category, distance, duration, ascent, descrip
     }).then(data => {
       for (let i = 0; i < data.length; i++) {
         if (data[i].name === name) {
-          
-          data[i].name = "TEST";
-
-          console.log(data[i].name)
-          // fs.writeFile('../../public/ordered_json_file.json', data, null, 4)
-
+          console.log(data[i].docno)
           break
         }
       }
+      // TODO - frontend
+      // post request containing docno and yes/no option
       
+      // todo - backend
+      // receive post request 
+        // subtract the score of the item if used fedback 'no' and store it in the feedback.json (together with query)
+        // add to the score if the feedbcak is 'yes'
       // console.log(docno)
     })
     .catch(error => console.error('Error fetching the JSON file:', error));

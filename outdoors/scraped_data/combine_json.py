@@ -1,6 +1,6 @@
 import json
 
-files=['./res_myswiss.json', './res_tic_act.json', './res_zer.json', './res_tic_hike.json']
+files=['./res_myswiss.json', './res_tic_act.json', './res_zer.json', './res_tic_hik.json']
 
 res = list()
 
